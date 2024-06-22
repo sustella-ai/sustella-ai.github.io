@@ -11,6 +11,9 @@ Simply add Markdown files (or folders) to the `blog` directory. Iskra
 
 Regular blog authors can be added to `authors.yml`.
 
+Night
+Day
+
 The blog post date can be extracted from filenames, such as:
 
 - `2019-05-30-welcome.md`
