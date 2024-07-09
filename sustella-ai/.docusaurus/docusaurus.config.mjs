@@ -4,78 +4,148 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Sustella AI",
-  "tagline": "Multi Agent Systems for the Future",
-  "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-site.example.com",
+  "title": "Chaos Mesh",
+  "tagline": "A Powerful Chaos Engineering Platform for Kubernetes",
+  "favicon": "/img/favicon.ico",
+  "url": "https://chaos-mesh.org",
   "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
-  "onBrokenLinks": "throw",
-  "onBrokenMarkdownLinks": "warn",
+  "organizationName": "chaos-mesh",
+  "projectName": "chaos-mesh.github.io",
+  "onBrokenLinks": "warn",
+  "trailingSlash": true,
   "i18n": {
     "defaultLocale": "en",
     "locales": [
-      "en"
+      "en",
+      "zh"
     ],
-    "path": "i18n",
-    "localeConfigs": {}
+    "localeConfigs": {
+      "en": {
+        "label": "English",
+        "direction": "ltr"
+      },
+      "zh": {
+        "label": "简体中文",
+        "direction": "ltr"
+      }
+    },
+    "path": "i18n"
   },
   "presets": [
     [
       "classic",
       {
+        "gtag": {
+          "trackingID": "G-T31S4LR9LL"
+        },
         "docs": {
-          "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "sidebarPath": "./sidebars.js",
+          "editUrl": "https://github.com/chaos-mesh/website/edit/master/",
+          "editLocalizedFiles": true
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/chaos-mesh/website/edit/master/",
+          "editLocalizedFiles": true
         },
         "theme": {
-          "customCss": "./src/css/custom.css"
+          "customCss": "./src/styles/custom.css"
         }
       }
     ]
   ],
   "themeConfig": {
-    "image": "img/docusaurus-social-card.jpg",
+    "colorMode": {
+      "respectPrefersColorScheme": true,
+      "defaultMode": "light",
+      "disableSwitch": false
+    },
+    "image": "/img/chaos-mesh-social-preview.png",
+    "algolia": {
+      "appId": "3BY0S3HQX6",
+      "apiKey": "99bb3af44d57f0e8f6d7e019d7e2c2d7",
+      "indexName": "chaos-mesh",
+      "contextualSearch": true,
+      "searchParameters": {},
+      "searchPagePath": "search"
+    },
     "navbar": {
-      "title": "My Site",
+      "hideOnScroll": true,
+      "title": "Chaos Mesh",
       "logo": {
-        "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "alt": "Chaos Mesh",
+        "src": "img/logos/logo-mini.svg",
+        "srcDark": "img/logos/logo-mini-white.svg"
       },
       "items": [
         {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "Tutorial"
+          "to": "docs",
+          "label": "Documentation",
+          "position": "left"
         },
         {
-          "to": "/blog",
+          "to": "blog",
           "label": "Blog",
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
+          "href": "https://community.cncf.io/chaos-mesh-community/",
+          "label": "Community Group",
+          "position": "left"
+        },
+        {
+          "type": "docsVersionDropdown",
+          "dropdownItemsAfter": [
+            {
+              "type": "html",
+              "value": "<hr style=\"margin: .5em 0;\" />"
+            },
+            {
+              "to": "/versions",
+              "label": "All Versions"
+            },
+            {
+              "to": "/supported-releases",
+              "label": "Supported Releases"
+            }
+          ],
+          "position": "right",
+          "dropdownItemsBefore": []
+        },
+        {
+          "type": "localeDropdown",
+          "position": "right",
+          "dropdownItemsBefore": [],
+          "dropdownItemsAfter": []
+        },
+        {
+          "href": "https://github.com/chaos-mesh/chaos-mesh",
+          "className": "header-github-link",
+          "aria-label": "GitHub",
           "position": "right"
         }
-      ],
-      "hideOnScroll": false
+      ]
     },
     "footer": {
-      "style": "dark",
       "links": [
         {
-          "title": "Docs",
+          "title": "Documentation",
           "items": [
             {
-              "label": "Tutorial",
-              "to": "/docs/intro"
+              "label": "Quick Start",
+              "to": "docs/quick-start"
+            },
+            {
+              "label": "Run a Chaos Experiment",
+              "to": "docs/run-a-chaos-experiment"
+            },
+            {
+              "label": "Developer Guide Overview",
+              "to": "docs/developer-guide-overview"
+            },
+            {
+              "label": "FAQs",
+              "to": "docs/faqs"
             }
           ]
         },
@@ -83,34 +153,38 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "label": "Blog",
+              "to": "blog"
             },
             {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              "label": "CNCF Community Group",
+              "href": "https://community.cncf.io/chaos-mesh-community/"
+            },
+            {
+              "label": "GitHub",
+              "href": "https://github.com/chaos-mesh/chaos-mesh"
+            },
+            {
+              "label": "Slack (#project-chaos-mesh)",
+              "href": "https://slack.cncf.io/"
             },
             {
               "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "href": "https://twitter.com/chaos_mesh"
             }
           ]
         },
         {
-          "title": "More",
+          "title": "Acknowledgements",
           "items": [
             {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "html": "\n              <ul>\n              <li>\n              <p style=\"font-size: 0.875rem;\">Thanks to netlify's Open Source Plan.</p>\n              <a href=\"https://www.netlify.com\" target=\"_blank\"><img src=\"https://www.netlify.com/v3/img/components/netlify-color-bg.svg\" alt=\"Deploys by Netlify\" /></a>\n              </li>\n              <li>\n              <p>Thanks for the <a href=\"https://storyset.com/technology\">Technology illustrations by Storyset</a>.</p>\n              </li>\n              </ul>"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2024 My Project, Inc. Built with Docusaurus."
+      "copyright": "\n        <p style=\"font-weight: 500;\">Copyright © Chaos Mesh Authors 2024 | Documentation Distributed under CC-BY-4.0</p>\n        © 2024 The Linux Foundation. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href=\"https://www.linuxfoundation.org/trademark-usage/\"> Trademark Usage</a> page.\n      ",
+      "style": "light"
     },
     "prism": {
       "theme": {
@@ -217,73 +291,16 @@ export default {
       },
       "darkTheme": {
         "plain": {
-          "color": "#F8F8F2",
-          "backgroundColor": "#282A36"
+          "color": "#9CDCFE",
+          "backgroundColor": "#1E1E1E"
         },
         "styles": [
           {
             "types": [
-              "prolog",
-              "constant",
-              "builtin"
+              "prolog"
             ],
             "style": {
-              "color": "rgb(189, 147, 249)"
-            }
-          },
-          {
-            "types": [
-              "inserted",
-              "function"
-            ],
-            "style": {
-              "color": "rgb(80, 250, 123)"
-            }
-          },
-          {
-            "types": [
-              "deleted"
-            ],
-            "style": {
-              "color": "rgb(255, 85, 85)"
-            }
-          },
-          {
-            "types": [
-              "changed"
-            ],
-            "style": {
-              "color": "rgb(255, 184, 108)"
-            }
-          },
-          {
-            "types": [
-              "punctuation",
-              "symbol"
-            ],
-            "style": {
-              "color": "rgb(248, 248, 242)"
-            }
-          },
-          {
-            "types": [
-              "string",
-              "char",
-              "tag",
-              "selector"
-            ],
-            "style": {
-              "color": "rgb(255, 121, 198)"
-            }
-          },
-          {
-            "types": [
-              "keyword",
-              "variable"
-            ],
-            "style": {
-              "color": "rgb(189, 147, 249)",
-              "fontStyle": "italic"
+              "color": "rgb(0, 0, 128)"
             }
           },
           {
@@ -291,20 +308,142 @@ export default {
               "comment"
             ],
             "style": {
-              "color": "rgb(98, 114, 164)"
+              "color": "rgb(106, 153, 85)"
             }
           },
           {
             "types": [
-              "attr-name"
+              "builtin",
+              "changed",
+              "keyword",
+              "interpolation-punctuation"
             ],
             "style": {
-              "color": "rgb(241, 250, 140)"
+              "color": "rgb(86, 156, 214)"
+            }
+          },
+          {
+            "types": [
+              "number",
+              "inserted"
+            ],
+            "style": {
+              "color": "rgb(181, 206, 168)"
+            }
+          },
+          {
+            "types": [
+              "constant"
+            ],
+            "style": {
+              "color": "rgb(100, 102, 149)"
+            }
+          },
+          {
+            "types": [
+              "attr-name",
+              "variable"
+            ],
+            "style": {
+              "color": "rgb(156, 220, 254)"
+            }
+          },
+          {
+            "types": [
+              "deleted",
+              "string",
+              "attr-value",
+              "template-punctuation"
+            ],
+            "style": {
+              "color": "rgb(206, 145, 120)"
+            }
+          },
+          {
+            "types": [
+              "selector"
+            ],
+            "style": {
+              "color": "rgb(215, 186, 125)"
+            }
+          },
+          {
+            "types": [
+              "tag"
+            ],
+            "style": {
+              "color": "rgb(78, 201, 176)"
+            }
+          },
+          {
+            "types": [
+              "tag"
+            ],
+            "languages": [
+              "markup"
+            ],
+            "style": {
+              "color": "rgb(86, 156, 214)"
+            }
+          },
+          {
+            "types": [
+              "punctuation",
+              "operator"
+            ],
+            "style": {
+              "color": "rgb(212, 212, 212)"
+            }
+          },
+          {
+            "types": [
+              "punctuation"
+            ],
+            "languages": [
+              "markup"
+            ],
+            "style": {
+              "color": "#808080"
+            }
+          },
+          {
+            "types": [
+              "function"
+            ],
+            "style": {
+              "color": "rgb(220, 220, 170)"
+            }
+          },
+          {
+            "types": [
+              "class-name"
+            ],
+            "style": {
+              "color": "rgb(78, 201, 176)"
+            }
+          },
+          {
+            "types": [
+              "char"
+            ],
+            "style": {
+              "color": "rgb(209, 105, 105)"
+            }
+          },
+          {
+            "types": [
+              "function",
+              "keyword"
+            ],
+            "style": {
+              "color": "#f25c7c"
             }
           }
         ]
       },
-      "additionalLanguages": [],
+      "additionalLanguages": [
+        "bash"
+      ],
       "magicComments": [
         {
           "className": "theme-code-block-highlighted-line",
@@ -315,11 +454,6 @@ export default {
           }
         }
       ]
-    },
-    "colorMode": {
-      "defaultMode": "light",
-      "disableSwitch": false,
-      "respectPrefersColorScheme": false
     },
     "docs": {
       "versionPersistence": "localStorage",
@@ -334,6 +468,15 @@ export default {
       "maxHeadingLevel": 3
     }
   },
+  "plugins": [
+    "./docusaurus-tailwind-v3",
+    [
+      "@gracefullight/docusaurus-plugin-microsoft-clarity",
+      {
+        "projectId": "lggqck9srz"
+      }
+    ]
+  ],
   "baseUrlIssueBanner": true,
   "future": {
     "experimental_storage": {
@@ -343,12 +486,12 @@ export default {
     "experimental_router": "browser"
   },
   "onBrokenAnchors": "warn",
+  "onBrokenMarkdownLinks": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],

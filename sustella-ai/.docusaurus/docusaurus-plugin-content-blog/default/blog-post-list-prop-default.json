@@ -2,23 +2,28 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "Welcome",
-      "permalink": "/blog/welcome",
+      "title": "Chaos Mesh Q&A at KUBECON EU 2022",
+      "permalink": "/blog/chaos-mesh-qa-at-kubecon-eu-2022",
       "unlisted": false
     },
     {
-      "title": "MDX Blog Post",
-      "permalink": "/blog/mdx-blog-post",
+      "title": "Experience as an LFX Mentee for Chaos Mesh",
+      "permalink": "/blog/experience-as-a-chaos-mesh-lfx-mentee",
       "unlisted": false
     },
     {
-      "title": "Long Blog Post",
-      "permalink": "/blog/long-blog-post",
+      "title": "How to Develop a Daily Reporting System to Track Chaos Testing Results",
+      "permalink": "/blog/develop-a-daily-reporting-system",
       "unlisted": false
     },
     {
-      "title": "First Blog Post",
-      "permalink": "/blog/first-blog-post",
+      "title": "Share your #ChaosMeshStory!",
+      "permalink": "/blog/share-your-chaos-mesh-story",
+      "unlisted": false
+    },
+    {
+      "title": "Deploy Chaos Mesh on KubeSphere",
+      "permalink": "/blog/deploy-chaos-mesh-on-kubesphere",
       "unlisted": false
     }
   ]

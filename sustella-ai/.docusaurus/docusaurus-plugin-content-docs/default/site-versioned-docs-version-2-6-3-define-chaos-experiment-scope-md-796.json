@@ -1,0 +1,26 @@
+{
+  "id": "define-chaos-experiment-scope",
+  "title": "Define the Scope of Chaos Experiments",
+  "description": "This document describes how to define the scope of a single Chaos experiment, which helps you accurately control the fault's explosion radius.",
+  "source": "@site/versioned_docs/version-2.6.3/define-chaos-experiment-scope.md",
+  "sourceDirName": ".",
+  "slug": "/define-chaos-experiment-scope",
+  "permalink": "/docs/define-chaos-experiment-scope",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.6.3/define-chaos-experiment-scope.md",
+  "tags": [],
+  "version": "2.6.3",
+  "frontMatter": {
+    "title": "Define the Scope of Chaos Experiments"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Remote Cluster Management",
+    "permalink": "/docs/remote-cluster-management"
+  },
+  "next": {
+    "title": "Define Scheduling Rules",
+    "permalink": "/docs/define-scheduling-rules"
+  }
+}

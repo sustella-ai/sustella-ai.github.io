@@ -1,0 +1,17 @@
+{
+  "id": "python-client",
+  "title": "Python",
+  "description": "TODO",
+  "source": "@site/versioned_docs/version-2.6.3/python-client.md",
+  "sourceDirName": ".",
+  "slug": "/python-client",
+  "permalink": "/docs/python-client",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.6.3/python-client.md",
+  "tags": [],
+  "version": "2.6.3",
+  "frontMatter": {
+    "title": "Python"
+  }
+}

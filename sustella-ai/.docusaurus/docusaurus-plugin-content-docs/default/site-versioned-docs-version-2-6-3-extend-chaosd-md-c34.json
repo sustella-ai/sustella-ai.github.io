@@ -1,0 +1,26 @@
+{
+  "id": "extend-chaosd",
+  "title": "Extend Chaosd",
+  "description": "TODO",
+  "source": "@site/versioned_docs/version-2.6.3/extend-chaosd.md",
+  "sourceDirName": ".",
+  "slug": "/extend-chaosd",
+  "permalink": "/docs/extend-chaosd",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.6.3/extend-chaosd.md",
+  "tags": [],
+  "version": "2.6.3",
+  "frontMatter": {
+    "title": "Extend Chaosd"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Extend Chaos Daemon Interface",
+    "permalink": "/docs/extend-chaos-daemon-interface"
+  },
+  "next": {
+    "title": "FAQs",
+    "permalink": "/docs/faqs"
+  }
+}

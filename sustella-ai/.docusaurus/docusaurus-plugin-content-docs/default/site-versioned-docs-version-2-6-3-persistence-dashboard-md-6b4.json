@@ -1,0 +1,26 @@
+{
+  "id": "persistence-dashboard",
+  "title": "Persistence Chaos Dashboard",
+  "description": "This document describes how to make Chaos Dashboard persistence.",
+  "source": "@site/versioned_docs/version-2.6.3/persistence-dashboard.md",
+  "sourceDirName": ".",
+  "slug": "/persistence-dashboard",
+  "permalink": "/docs/persistence-dashboard",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.6.3/persistence-dashboard.md",
+  "tags": [],
+  "version": "2.6.3",
+  "frontMatter": {
+    "title": "Persistence Chaos Dashboard"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Expose Chaos Dashboard with Ingress",
+    "permalink": "/docs/expose-dashboard-with-ingress"
+  },
+  "next": {
+    "title": "Uninstall Chaos Mesh",
+    "permalink": "/docs/uninstallation"
+  }
+}
