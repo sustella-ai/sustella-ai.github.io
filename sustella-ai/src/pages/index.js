@@ -26,7 +26,7 @@ import styles from './index.module.css'
 gsap.registerPlugin(ScrollTrigger)
 
 const description =
-  'Sustella AI is at the forefront of leveraging advanced multi-agent systems to provide comprehensive solutions for climate and sustainability challenges.'
+  'Leveraging advanced multi-agent systems for a sustainable future'
 
 function Home() {
   const { siteConfig } = useDocusaurusContext()
@@ -75,10 +75,8 @@ function Home() {
                     styles.heroTitle
                   )}
                 >
-                  <span>Multi Agent Systems</span>
-                  <br />
-                  for Sustainable AI
-                  <br />
+                  <span>Sustella AI</span>
+
                 </h1>
                 <p className="lg:tw-text-lg tw-font-medium tw-rounded-2xl tw-backdrop-blur-sm lg:tw-backdrop-blur">
                   {/* TODO: add translation. */}
