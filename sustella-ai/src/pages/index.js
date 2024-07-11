@@ -71,15 +71,15 @@ function Home() {
               <div className="tw-flex-[.8] 2xl:tw-flex-[.6] tw-p-6 lg:tw-p-3">
                 <h1
                   className={clsx(
-                    'tw-inline-block tw-text-5xl xl:tw-text-6xl tw-text-left tw-rounded-2xl tw-backdrop-blur-sm lg:tw-backdrop-blur',
+                    'tw-inline-block tw-text-5xl xl:tw-text-7xl tw-text-left tw-rounded-2xl tw-backdrop-blur-sm lg:tw-backdrop-blur',
                     styles.heroTitle
                   )}
                 >
                   <span>Sustella AI</span>
 
                 </h1>
-                <p className="lg:tw-text-lg tw-font-medium tw-rounded-2xl tw-backdrop-blur-sm lg:tw-backdrop-blur">
-                  {/* TODO: add translation. */}
+                {/* Want to change the size of description so that it is rendered on a single line */}
+                <p className="lg:tw-text-lg tw-font-medium tw-rounded-2xl tw-backdrop-blur-sm lg:tw-backdrop-blur w-full h-auto">
                   <Translate id="home.description">{description}</Translate>
                 </p>
                 <div className="tw-flex tw-gap-3">
@@ -285,7 +285,7 @@ function Home() {
                 <IconGithub className="tw-w-12 tw-h-12 dark:tw-fill-white" />
                 <p>Join our contributors in building the future of Sustella</p>
                 <Link
-                  to="https://github.com/chaos-mesh/chaos-mesh"
+                  to="https://github.com/sustella-ai/sustella-studio"
                   className="tw-btn tw-bg-[#f2f2f2] tw-text-[#1f2937] dark:tw-text-[#a6adba] hover:!tw-bg-[#e6e6e6] tw-normal-case dark:tw-glass dark:hover:!tw-bg-transparent dark:hover:tw-text-white"
                 >
                   Star on GitHub
@@ -296,7 +296,7 @@ function Home() {
                 <p>Experiencing any issues? Don't hesitate to reach out to us for assistance.</p>
                 <div className="tw-flex tw-gap-3">
                   <Link
-                    to="https://github.com/chaos-mesh/chaos-mesh/issues"
+                    to="https://github.com/sustella-ai/sustella-studio/issues"
                     className="tw-btn tw-bg-[#f2f2f2] tw-text-[#1f2937] dark:tw-text-[#a6adba] hover:!tw-bg-[#e6e6e6] tw-normal-case dark:tw-glass dark:hover:!tw-bg-transparent dark:hover:tw-text-white"
                   >
                     Issues
