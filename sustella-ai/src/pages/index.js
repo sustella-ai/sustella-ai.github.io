@@ -87,14 +87,14 @@ function Home() {
                     to="/docs/production-installation-using-helm"
                     className="tw-btn tw-btn-primary hover:tw-text-white hover:-tw-translate-y-[3px]"
                   >
-                    Get Started →
+                    Join the waiting list →
                   </Link>
                   <Link
                     to="https://github.com/sustella-ai/sustella-studio"
                     className="tw-btn tw-btn-neutral tw-gap-2 dark:tw-glass hover:tw-text-white hover:-tw-translate-y-[3px]"
                   >
                     <IconOctocat className="tw-w-4 tw-h-4 tw-fill-white" />
-                    GitHub
+                    Sustella AI
                   </Link>
                 </div>
               </div>
