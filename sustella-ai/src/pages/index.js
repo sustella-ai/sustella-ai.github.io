@@ -1,62 +1,63 @@
-import BrowserOnly from '@docusaurus/BrowserOnly'
-import Head from '@docusaurus/Head'
-import Link from '@docusaurus/Link'
-import Translate from '@docusaurus/Translate'
-import useBaseUrl from '@docusaurus/useBaseUrl'
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
-import Layout from '@theme/Layout'
-import { clsx } from 'clsx'
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import React, { useEffect } from 'react'
+import IconGithub from "../../static/img/icons/github.svg";
+import IconHelp from "../../static/img/icons/help.svg";
+import IconLibrary from "../../static/img/icons/library.svg";
+import IconOctocat from "../../static/img/icons/octocat.svg";
+import Card from "../components/Card";
+import ChaosdFeatures from "../components/ChaosdFeatures";
+import CodeGrid from "../components/CodeGrid";
+import Features from "../components/Features";
+import Mesh from "../components/Mesh";
+import PickVersion from "../components/PickVersion";
+import whoIsUsing from "../data/whoIsUsing";
+import styles from "./index.module.css";
+import BrowserOnly from "@docusaurus/BrowserOnly";
+import Head from "@docusaurus/Head";
+import Link from "@docusaurus/Link";
+import Translate from "@docusaurus/Translate";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Layout from "@theme/Layout";
+import { clsx } from "clsx";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import React, { useEffect } from "react";
 
-import IconGithub from '../../static/img/icons/github.svg'
-import IconHelp from '../../static/img/icons/help.svg'
-import IconLibrary from '../../static/img/icons/library.svg'
-import IconOctocat from '../../static/img/icons/octocat.svg'
-import Card from '../components/Card'
-import ChaosdFeatures from '../components/ChaosdFeatures'
-import CodeGrid from '../components/CodeGrid'
-import Features from '../components/Features'
-import Mesh from '../components/Mesh'
-import PickVersion from '../components/PickVersion'
-import whoIsUsing from '../data/whoIsUsing'
-import styles from './index.module.css'
-
-gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(ScrollTrigger);
 
 const description =
-  'Sustella AI is at the forefront of leveraging advanced multi-agent systems to provide comprehensive solutions for climate and sustainability challenges. Our platform is designed with simplicity and power, enabling seamless automation of your most critical workflows.'
+  "Leveraging advanced multi-agent systems to provide comprehensive solutions for climate and sustainability challenges. A paradigm shift in how AI can be utilized to gather, process, and present information.";
 
 function Home() {
-  const { siteConfig } = useDocusaurusContext()
+  const { siteConfig } = useDocusaurusContext();
 
   useEffect(() => {
-    document.querySelector('.navbar__inner').classList.add('tw-container', 'tw-mx-auto')
+    document
+      .querySelector(".navbar__inner")
+      .classList.add("tw-container", "tw-mx-auto");
 
-    gsap.from('.scroll-to-display', {
+    gsap.from(".scroll-to-display", {
       duration: 1,
       opacity: 0,
       y: 50,
       stagger: 0.25,
       scrollTrigger: {
-        trigger: '.scroll-to-display',
-        toggleActions: 'restart none none none',
+        trigger: ".scroll-to-display",
+        toggleActions: "restart none none none",
       },
-    })
+    });
 
-    gsap.from('.scroll-to-display-x', {
+    gsap.from(".scroll-to-display-x", {
       duration: 1,
       opacity: 0,
       x: 0,
       y: 100,
       stagger: 0.25,
       scrollTrigger: {
-        trigger: '.scroll-to-display-x',
-        toggleActions: 'restart none none none',
+        trigger: ".scroll-to-display-x",
+        toggleActions: "restart none none none",
       },
-    })
-  }, [])
+    });
+  }, []);
 
   return (
     <Layout description={description}>
@@ -71,32 +72,31 @@ function Home() {
               <div className="tw-flex-[.8] 2xl:tw-flex-[.6] tw-p-6 lg:tw-p-3">
                 <h1
                   className={clsx(
-                    'tw-inline-block tw-text-5xl xl:tw-text-7xl tw-text-left tw-rounded-2xl tw-backdrop-blur-sm lg:tw-backdrop-blur',
+                    "tw-inline-block tw-text-5xl xl:tw-text-7xl tw-text-left tw-rounded-2xl tw-backdrop-blur-sm lg:tw-backdrop-blur",
                     styles.heroTitle
                   )}
                 >
-                  <span>Advanced Multi-Agent System for a Sustainable Future</span>
-
+                  <span>Sustella AI</span>
                 </h1>
                 {/* Want to change the size of description so that it is rendered on a single line */}
                 <p className="lg:tw-text-lg tw-font-medium tw-rounded-2xl tw-backdrop-blur-sm lg:tw-backdrop-blur w-full h-auto">
                   <Translate id="home.description">{description}</Translate>
                 </p>
-                <div className="tw-flex tw-gap-3">
+                {/* <div className="tw-flex tw-gap-3">
                   <Link
                     to="/docs/production-installation-using-helm"
                     className="tw-btn tw-btn-primary hover:tw-text-white hover:-tw-translate-y-[3px]"
                   >
-                    Join the waiting list →
+                    Github Repository →
                   </Link>
                   <Link
                     to="https://github.com/sustella-ai/sustella-studio"
                     className="tw-btn tw-btn-neutral tw-gap-2 dark:tw-glass hover:tw-text-white hover:-tw-translate-y-[3px]"
                   >
                     <IconOctocat className="tw-w-4 tw-h-4 tw-fill-white" />
-                    Sustella AI
+                    Sustella Studio
                   </Link>
-                </div>
+                </div> */}
               </div>
 
               <div className="lg:max-xl:tw-w-[500px] tw-p-6 lg:tw-p-3">
@@ -104,14 +104,14 @@ function Home() {
                   Check out our demo at this link below👇
                 </h2>
                 <PickVersion className="!tw-mb-0">
-                  curl -sSL https://mirrors.chaos-mesh.org/latest/install.sh | bash
+                  https://www.youtube.com/watch?v=JCbRMS_3ZHk
                 </PickVersion>
               </div>
             </div>
           </div>
         </div>
 
-{/*         <div className="hero">
+        {/*         <div className="hero">
           <div className="tw-container tw-mx-auto max-lg:tw-px-4 tw-text-center">
             <h2 className="tw-text-lg">
               <Translate id="home.whoisusing">Users of Chaos Mesh</Translate>
@@ -140,11 +140,11 @@ function Home() {
             <div className="tw-max-w-[800px] tw-mb-12 tw-mx-auto tw-text-center">
               {/* TODO: add translation. */}
               <h2 className="tw-text-4xl xl:tw-text-5xl">
-               <span className={styles.heroTitle}>Sustella Studio</span>
+                <span className={styles.heroTitle}>
+                  Advanced Multi-Agent System for a Sustainable Future
+                </span>
               </h2>
-              <p className="lg:tw-text-lg tw-font-medium">
-              Coming soon
-              </p>
+              <p className="lg:tw-text-lg tw-font-medium"></p>
             </div>
 
             <div className="tw-grid tw-gap-8 lg:tw-grid-rows-2 lg:tw-grid-cols-6">
@@ -158,20 +158,31 @@ function Home() {
             <div className="tw-max-w-[800px] tw-mx-auto tw-text-center">
               {/* TODO: add translation. */}
               <h2 className="tw-text-4xl xl:tw-text-5xl">
-               Why <span className={styles.heroTitle}>Sustella AI</span>?
+                Why <span className={styles.heroTitle}>Sustella AI</span>?
               </h2>
               <p className="lg:tw-text-lg tw-font-medium left-aligned">
-                  <ul>
-                    <li>
-                    <b>AI Agents for Real Use Cases:</b> We deliver the power of AI with unparalleled simplicity, allowing you to quickly automate essential workflows and achieve impactful results.
-                    </li>
-                    <li>
-                    <b>The Future of Conversational AI:</b> Our custom-trained AI agents are tailored to your business needs. You can verbally ask our agents for your analysis. They operate around the clock, creating personalized conversations for every stakeholder, ensuring continuous engagement and support.
-                    </li>
-                    <li>
-                    <b>Business Intelligence:</b> Our AI agent teams are focused on automating the analysis so you can focus on insights and decision making.
-                    </li>
-                  </ul>
+                <div style={{ textAlign: "left" }}>
+                  <h3>AI Agents for Real Use Cases:</h3>
+                  <p>
+                    Experience the power of AI with ease. Quickly automate
+                    workflows and achieve significant results.
+                  </p>
+                </div>
+                <div style={{ textAlign: "left" }}>
+                  <h3>The Future of Conversational AI:</h3>
+                  <p>
+                    Our AI agents are custom-trained for your business. Ask them
+                    for analysis verbally. They operate 24/7, ensuring
+                    personalized interactions and continuous support.
+                  </p>
+                </div>
+                <div style={{ textAlign: "left" }}>
+                  <h3>Business Intelligence:</h3>
+                  <p>
+                    Our AI teams automate analysis, letting you focus on
+                    insights and decision-making.
+                  </p>
+                </div>
               </p>
             </div>
             {/* <img
@@ -192,9 +203,9 @@ function Home() {
                 Explore More
               </Link>
             </div> */}
-            <div className="tw-grid tw-gap-8 lg:tw-grid-cols-3 tw-my-12">
+{/*             <div className="tw-grid tw-gap-8 lg:tw-grid-cols-3 tw-my-12">
               <CodeGrid />
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -240,8 +251,15 @@ function Home() {
         <div className="hero">
           <div className="tw-container tw-mx-auto max-lg:tw-px-4">
             <div className="tw-flex tw-flex-col lg:tw-flex-row lg:tw-items-center tw-gap-8">
-              <div className={clsx('tw-relative tw-flex-1 tw-flex tw-items-center tw-overflow-hidden xl:tw-h-[640px]')}>
-                <img className="tw-absolute tw-w-[90%]" src="/img/home/chaosd-bg.svg" />
+              <div
+                className={clsx(
+                  "tw-relative tw-flex-1 tw-flex tw-items-center tw-overflow-hidden xl:tw-h-[640px]"
+                )}
+              >
+                <img
+                  className="tw-absolute tw-w-[90%]"
+                  src="/img/home/chaosd-bg.svg"
+                />
                 <div className="tw-flex tw-justify-center tw-items-center xl:tw-w-[75%] lg:tw-h-[100%]">
                   <ChaosdFeatures />
                 </div>
@@ -276,7 +294,7 @@ function Home() {
           <div className="tw-container tw-mx-auto max-lg:tw-px-4">
             <div className="tw-max-w-[800px] tw-mb-12 tw-mx-auto tw-text-center">
               {/* TODO: add translation. */}
-             {/*  <h2 className="tw-text-4xl xl:tw-text-5xl">
+              {/*  <h2 className="tw-text-4xl xl:tw-text-5xl">
                 Building the Whole Community <span className={styles.heroTitle}>Together</span>.
               </h2> */}
               {/* <p className="lg:tw-text-lg tw-font-medium">
@@ -338,7 +356,7 @@ function Home() {
         </div>
       </main>
     </Layout>
-  )
+  );
 }
 
-export default Home
+export default Home;

@@ -42,7 +42,7 @@ export default function Features() {
     <>
       <Feature
         imgUrl="img/features/graph2.png"
-        title={<Translate id="">Prediction/ Forecasting</Translate>}
+        title={<Translate id="">Predictive Analytics</Translate>}
         description={
           <>
             <p>
@@ -96,11 +96,11 @@ export default function Features() {
             </ul>
           </>
         }
-        className="lg:tw-col-span-4"
+        className="lg:tw-col-span-3"
       />
        <Feature
         imgUrl="img/features/Int1.svg"
-        title={<Translate id="">Decision intelligence</Translate>}
+        title={<Translate id="">Decision Intelligence</Translate>}
         description={
           <>
             <p>
@@ -127,27 +127,27 @@ export default function Features() {
             <ul>
               <li>
                 <Translate id="home.easytouse.2">
-                Targets dissemination
+                Targets Identification
                 </Translate>
               </li>
               <li>
                 <Translate id="home.easytouse.3">
-                Decarbonization roadmaps
+                Decarbonization Roadmaps
                 </Translate>
               </li>
               <li>
                 <Translate id="home.easytouse.3">
-                Transition planning
+                Transition Planning
                 </Translate>
               </li>
             </ul>
           </>
         }
-        className="lg:tw-col-span-4"
+        className="lg:tw-col-span-3"
       />
        <Feature
         imgUrl="img/features/graph.png"
-        title={<Translate id="">Segmentation/ Classification
+        title={<Translate id="">Market Segmentation
 </Translate>}
         description={
           <>
@@ -191,7 +191,7 @@ export default function Features() {
             </ul>
           </>
         }
-        className="lg:tw-col-span-4"
+        className="lg:tw-col-span-3"
       />
        <Feature
         imgUrl="img/features/flexible-scope.svg"
@@ -233,7 +233,7 @@ export default function Features() {
             </ul>
           </>
         }
-        className="lg:tw-col-span-4"
+        className="lg:tw-col-span-3"
       />
     </>
   )

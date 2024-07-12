@@ -7,33 +7,33 @@ import { themes as prismThemes } from 'prism-react-renderer'
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Chaos Mesh',
-  tagline: 'A Powerful Chaos Engineering Platform for Kubernetes',
+  title: 'Sustella AI',
+  tagline: 'Advanced Multi Agent System for a Sustainable Future',
   favicon: '/img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://chaos-mesh.org',
+  url: 'https://sustella-ai.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'chaos-mesh', // Usually your GitHub org/user name.
-  projectName: 'chaos-mesh.github.io', // Usually your repo name.
+  organizationName: 'sustella-ai', // Usually your GitHub org/user name.
+  projectName: 'https://sustella-ai.github.io/', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   trailingSlash: true,
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'zh'],
+    locales: ['en', 'de'],
     localeConfigs: {
       en: {
         label: 'English',
       },
       zh: {
-        label: '简体中文',
+        label: 'German',
       },
     },
   },
@@ -122,74 +122,8 @@ const config = {
       ],
     },
     footer: {
-      links: [
-       /*  {
-          title: 'Documentation',
-          items: [
-            {
-              label: 'Quick Start',
-              to: 'docs/quick-start',
-            },
-            {
-              label: 'Run a Chaos Experiment',
-              to: 'docs/run-a-chaos-experiment',
-            },
-            {
-              label: 'Developer Guide Overview',
-              to: 'docs/developer-guide-overview',
-            },
-            {
-              label: 'FAQs',
-              to: 'docs/faqs',
-            },
-          ],
-        }, */
-        /* {
-          title: 'Community',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'CNCF Community Group',
-              href: 'https://community.cncf.io/chaos-mesh-community/',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/chaos-mesh/chaos-mesh',
-            },
-            {
-              label: 'Slack (#project-chaos-mesh)',
-              href: 'https://slack.cncf.io/',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/chaos_mesh',
-            },
-          ],
-        }, */
-        {
-          title: 'Acknowledgements',
-          items: [
-            {
-              html: `
-              <ul>
-              <li>
-              <p style="font-size: 0.875rem;">Thanks to netlify's Open Source Plan.</p>
-              <a href="https://www.netlify.com" target="_blank"><img src="https://www.netlify.com/v3/img/components/netlify-color-bg.svg" alt="Deploys by Netlify" /></a>
-              </li>
-              <li>
-              <p>Thanks for the <a href="https://storyset.com/technology">Technology illustrations by Storyset</a>.</p>
-              </li>
-              </ul>`,
-            },
-          ],
-        },
-      ],
       copyright: `
-        <p style="font-weight: 500;">Copyright © Chaos Mesh Authors ${new Date().getFullYear()} | Documentation Distributed under CC-BY-4.0</p>
-        © ${new Date().getFullYear()} The Linux Foundation. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage/"> Trademark Usage</a> page.
+        <p style="font-weight: 500;">Copyright © Sustella AI ${new Date().getFullYear()} | Documentation Distributed under CC-BY-4.0</p>
       `,
     },
     prism: {

@@ -4,20 +4,20 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Chaos Mesh",
-  "tagline": "A Powerful Chaos Engineering Platform for Kubernetes",
+  "title": "Sustella AI",
+  "tagline": "Advanced Multi Agent System for a Sustainable Future",
   "favicon": "/img/favicon.ico",
-  "url": "https://chaos-mesh.org",
+  "url": "https://sustella-ai.github.io",
   "baseUrl": "/",
-  "organizationName": "chaos-mesh",
-  "projectName": "chaos-mesh.github.io",
+  "organizationName": "sustella-ai",
+  "projectName": "https://sustella-ai.github.io/",
   "onBrokenLinks": "warn",
   "trailingSlash": true,
   "i18n": {
     "defaultLocale": "en",
     "locales": [
       "en",
-      "zh"
+      "de"
     ],
     "localeConfigs": {
       "en": {
@@ -25,7 +25,7 @@ export default {
         "direction": "ltr"
       },
       "zh": {
-        "label": "简体中文",
+        "label": "German",
         "direction": "ltr"
       }
     },
@@ -92,18 +92,9 @@ export default {
       ]
     },
     "footer": {
-      "links": [
-        {
-          "title": "Acknowledgements",
-          "items": [
-            {
-              "html": "\n              <ul>\n              <li>\n              <p style=\"font-size: 0.875rem;\">Thanks to netlify's Open Source Plan.</p>\n              <a href=\"https://www.netlify.com\" target=\"_blank\"><img src=\"https://www.netlify.com/v3/img/components/netlify-color-bg.svg\" alt=\"Deploys by Netlify\" /></a>\n              </li>\n              <li>\n              <p>Thanks for the <a href=\"https://storyset.com/technology\">Technology illustrations by Storyset</a>.</p>\n              </li>\n              </ul>"
-            }
-          ]
-        }
-      ],
-      "copyright": "\n        <p style=\"font-weight: 500;\">Copyright © Chaos Mesh Authors 2024 | Documentation Distributed under CC-BY-4.0</p>\n        © 2024 The Linux Foundation. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href=\"https://www.linuxfoundation.org/trademark-usage/\"> Trademark Usage</a> page.\n      ",
-      "style": "light"
+      "copyright": "\n        <p style=\"font-weight: 500;\">Copyright © Sustella AI 2024 | Documentation Distributed under CC-BY-4.0</p>\n      ",
+      "style": "light",
+      "links": []
     },
     "prism": {
       "theme": {

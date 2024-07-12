@@ -69,7 +69,7 @@
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-better-observability-for-chaos-engineering-ace-778"
+        "blogMetadata": "blogMetadata---blog-chaos-mesh-qa-at-kubecon-eu-2022-ace-5f1"
       },
       "plugin": "plugin---blog-369-533"
     },
@@ -80,12 +80,12 @@
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-better-observability-for-chaos-engineering-ace-778"
+        "blogMetadata": "blogMetadata---blog-chaos-mesh-qa-at-kubecon-eu-2022-ace-5f1"
       },
       "plugin": "plugin---blog-369-533"
     },
     "sidebar": "sidebar---blog-814-0c3",
-    "content": "content---blog-sustella-ai-founders-story-a-0-a-8c7"
+    "content": "content---blog-sustella-ai-founders-a-0-a-93b"
   },
   "/blog/tags/-e17": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
