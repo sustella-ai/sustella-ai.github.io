@@ -4,9 +4,9 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Sustella AI:",
-  "tagline": "Multi-Agent System",
-  "favicon": "/img/sustella-logo3.svg",
+  "title": "Chaos Mesh",
+  "tagline": "A Powerful Chaos Engineering Platform for Kubernetes",
+  "favicon": "/img/favicon.ico",
   "url": "https://chaos-mesh.org",
   "baseUrl": "/",
   "organizationName": "chaos-mesh",
@@ -60,11 +60,11 @@ export default {
       "defaultMode": "light",
       "disableSwitch": false
     },
-    "image": "/img/sustella-logo3.svg",
+    "image": "/img/sustella-logo1.png",
     "algolia": {
       "appId": "3BY0S3HQX6",
       "apiKey": "99bb3af44d57f0e8f6d7e019d7e2c2d7",
-      "indexName": "chaos-mesh",
+      "indexName": "sustella-ai",
       "contextualSearch": true,
       "searchParameters": {},
       "searchPagePath": "search"
@@ -73,53 +73,18 @@ export default {
       "hideOnScroll": true,
       "title": "Sustella AI",
       "logo": {
-        "alt": "Chaos Mesh",
-        "src": "img/logos/sustella-logo3.svg",
-        "srcDark": "img/logos/sustella-logo3.svg"
+        "alt": "Sustella Ai",
+        "src": "img/logos/sustella-logo1.png",
+        "srcDark": "img/logos/sustella-logo.png"
       },
       "items": [
         {
-          "to": "docs",
-          "label": "Documentation",
-          "position": "left"
-        },
-        {
           "to": "blog",
-          "label": "Blog",
+          "label": "Use cases",
           "position": "left"
         },
         {
-          "href": "https://community.cncf.io/chaos-mesh-community/",
-          "label": "Community Group",
-          "position": "left"
-        },
-        {
-          "type": "docsVersionDropdown",
-          "dropdownItemsAfter": [
-            {
-              "type": "html",
-              "value": "<hr style=\"margin: .5em 0;\" />"
-            },
-            {
-              "to": "/versions",
-              "label": "All Versions"
-            },
-            {
-              "to": "/supported-releases",
-              "label": "Supported Releases"
-            }
-          ],
-          "position": "right",
-          "dropdownItemsBefore": []
-        },
-        {
-          "type": "localeDropdown",
-          "position": "right",
-          "dropdownItemsBefore": [],
-          "dropdownItemsAfter": []
-        },
-        {
-          "href": "https://github.com/chaos-mesh/chaos-mesh",
+          "href": "https://github.com/sustella-ai/sustella-ai.github.io",
           "className": "header-github-link",
           "aria-label": "GitHub",
           "position": "right"

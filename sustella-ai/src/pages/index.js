@@ -101,7 +101,7 @@ function Home() {
 
               <div className="lg:max-xl:tw-w-[500px] tw-p-6 lg:tw-p-3">
                 <h2 className="tw-inline-block tw-text-base lg:tw-text-lg tw-font-semibold tw-rounded-2xl tw-backdrop-blur-sm lg:tw-backdrop-blur">
-                  Try it out with the following command 👇
+                  Check out our demo at this link below👇
                 </h2>
                 <PickVersion className="!tw-mb-0">
                   curl -sSL https://mirrors.chaos-mesh.org/latest/install.sh | bash

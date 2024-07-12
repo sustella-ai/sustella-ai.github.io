@@ -72,32 +72,32 @@ const config = {
     colorMode: {
       respectPrefersColorScheme: true,
     },
-    image: '/img/chaos-mesh-social-preview.png',
+    image: '/img/sustella-logo1.png',
     algolia: {
       appId: '3BY0S3HQX6',
       apiKey: '99bb3af44d57f0e8f6d7e019d7e2c2d7',
-      indexName: 'chaos-mesh',
+      indexName: 'sustella-ai',
     },
     navbar: {
       hideOnScroll: true,
-      title: 'Chaos Mesh',
+      title: 'Sustella AI',
       logo: {
-        alt: 'Chaos Mesh',
-        src: 'img/logos/logo-mini.svg',
-        srcDark: 'img/logos/logo-mini-white.svg',
+        alt: 'Sustella Ai',
+        src: 'img/logos/sustella-logo1.png',
+        srcDark: 'img/logos/sustella-logo.png',
       },
       items: [
-        { to: 'docs', label: 'Documentation' },
+        /* { to: 'docs', label: 'Documentation' }, */
         {
           to: 'blog',
-          label: 'Blog',
+          label: 'Use cases',
         },
-        {
+        /* {
           href: 'https://community.cncf.io/chaos-mesh-community/',
           label: 'Community Group',
-        },
+        }, */
 
-        {
+        /* {
           type: 'docsVersionDropdown',
           dropdownItemsAfter: [
             {
@@ -108,13 +108,13 @@ const config = {
             { to: '/supported-releases', label: 'Supported Releases' },
           ],
           position: 'right',
-        },
-        {
+        }, */
+        /* {
           type: 'localeDropdown',
           position: 'right',
-        },
+        }, */
         {
-          href: 'https://github.com/chaos-mesh/chaos-mesh',
+          href: 'https://github.com/sustella-ai/sustella-ai.github.io',
           className: 'header-github-link',
           'aria-label': 'GitHub',
           position: 'right',
