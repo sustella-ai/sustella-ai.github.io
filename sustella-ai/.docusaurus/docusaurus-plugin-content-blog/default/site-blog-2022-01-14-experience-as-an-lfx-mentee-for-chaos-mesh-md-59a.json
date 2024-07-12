@@ -1,9 +1,9 @@
 {
-  "permalink": "/blog/experience-as-a-chaos-mesh-lfx-mentee",
+  "permalink": "/blog/Sustella AI Founders Story",
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/blog/2022-01-14-experience-as-an-lfx-mentee-for-chaos-mesh.md",
   "source": "@site/blog/2022-01-14-experience-as-an-lfx-mentee-for-chaos-mesh.md",
-  "title": "Experience as an LFX Mentee for Chaos Mesh",
-  "description": "Experience as an LFX Mentee for Chaos Mesh",
+  "title": "Sustella AI Founders Story",
+  "description": "sustella-ai-team",
   "date": "2022-01-14T00:00:00.000Z",
   "tags": [
     {
@@ -27,21 +27,21 @@
       "permalink": "/blog/tags/monitoring-metrics"
     }
   ],
-  "readingTime": 6.57,
+  "readingTime": 2.745,
   "hasTruncateMarker": true,
   "authors": [
     {
-      "name": "Chunxu Zhang",
-      "title": "LFX mentee",
+      "name": "Josipa Vranjkovic",
+      "title": "Sustella AI",
       "url": "https://github.com/TangliziGit",
       "imageURL": "https://avatars.githubusercontent.com/u/40566218?v=4"
     }
   ],
   "frontMatter": {
-    "slug": "/experience-as-a-chaos-mesh-lfx-mentee",
-    "title": "Experience as an LFX Mentee for Chaos Mesh",
-    "author": "Chunxu Zhang",
-    "author_title": "LFX mentee",
+    "slug": "/Sustella AI Founders Story",
+    "title": "Sustella AI Founders Story",
+    "author": "Josipa Vranjkovic",
+    "author_title": "Sustella AI",
     "author_url": "https://github.com/TangliziGit",
     "author_image_url": "https://avatars.githubusercontent.com/u/40566218?v=4",
     "image": "/img/blog/lfx-mentee-experience-banner.png",
@@ -54,7 +54,7 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "Sustella for Porsche",
+    "title": "Sustella AI for Porsche",
     "permalink": "/blog/chaos-mesh-qa-at-kubecon-eu-2022"
   },
   "nextItem": {

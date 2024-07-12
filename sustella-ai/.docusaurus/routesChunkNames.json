@@ -276,17 +276,6 @@
     "sidebar": "sidebar---blog-814-0c3",
     "content": "content---blog-develop-a-daily-reporting-system-cc-7-89e"
   },
-  "/blog/experience-as-a-chaos-mesh-lfx-mentee/-cc5": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---blog-better-observability-for-chaos-engineering-ace-778"
-      },
-      "plugin": "plugin---blog-369-533"
-    },
-    "sidebar": "sidebar---blog-814-0c3",
-    "content": "content---blog-experience-as-a-chaos-mesh-lfx-mentee-59-a-753"
-  },
   "/blog/how-a-top-game-company-uses-chaos-engineering-to-improve-testing/-6c9": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
@@ -498,6 +487,17 @@
     },
     "sidebar": "sidebar---blog-814-0c3",
     "content": "content---blog-simulating-clock-skew-in-k-8-s-without-affecting-other-containers-on-node-689-9c7"
+  },
+  "/blog/Sustella AI Founders Story/-27b": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-better-observability-for-chaos-engineering-ace-778"
+      },
+      "plugin": "plugin---blog-369-533"
+    },
+    "sidebar": "sidebar---blog-814-0c3",
+    "content": "content---blog-experience-as-a-chaos-mesh-lfx-mentee-59-a-753"
   },
   "/blog/tags/-e17": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",

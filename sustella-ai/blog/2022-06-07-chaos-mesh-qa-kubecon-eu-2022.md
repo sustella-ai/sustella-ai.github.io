@@ -1,6 +1,6 @@
 ---
 slug: /chaos-mesh-qa-at-kubecon-eu-2022
-title: 'Sustella for Porsche'
+title: 'Sustella AI for Porsche'
 author: Tanvi Sharma
 author_url: https://github.com/chaos-mesh
 author_image_url: https://falling-walls.com/wp-content/uploads/tanviphotocolor-768x880.jpeg
@@ -12,34 +12,48 @@ tags: [Porsche, Sustella, AI, AI Agents, ESG]
 
 <!-- At KubeCon EU 2022, the [Chaos Mesh](https://chaos-mesh.org/) team hosted two activities "Make Cloud Native Chaos Engineering Easier - Deep Dive into Chaos Mesh" and "office hours session". We are very grateful and enjoyed it with all of you very much. We shared with each other, got to know each other, and discussed a lot of things in depth. -->
 
-## Company Overview
-
-Sustella AI is at the forefront of leveraging advanced multi-agent systems to provide comprehensive solutions for climate and sustainability challenges. Our platform is designed with simplicity and power, enabling seamless automation of your most critical workflows.
 
 
 <!--truncate-->
 
-## Why Sustella AI?
 
-**AI Agents for Real Use Cases:** We deliver the power of AI with unparalleled simplicity, allowing you to quickly automate essential workflows and achieve impactful results.
-
-**The Future of Conversational AI:** Our custom-trained AI agents are tailored to your business needs. You can verbally ask our agents for your analysis. They operate around the clock, creating personalized conversations for every stakeholder, ensuring continuous engagement and support.
-
-**Empowering Business Intelligence:** Our AI agent teams are focused on automating the analysis so you can focus on insights and decision making.
 
 **Sustella AI is transforming the way you drive sustainability in your business. With Sustella AI, your analysis becomes faster and efficient so you can make decisions with ease.**
 
-## Illustrative example - Sustella AI: Your Analysis Agent Team for ESG Excellence
+
+![Sustella for Porsche](/img/blog/porsche4.png)
+
+
+## Illustrative example - Sustella AI:Your Analysis Agent Team for ESG Excellence
 
 The strongest capability of Sustella AI is its ability to act as your personalized analysis assistant, specifically tailored to your unique use cases. Here's how Sustella AI complements existing SaaS data platforms like UL360 in the realm of ESG data analysis:
 
-![Sustella for Porsche](/img/blog/porsche1.png)
+![Sustella for Porsche](/img/blog/porsche3.png)
 
-**By leveraging Sustella AI alongside your existing SaaS data platforms like UL360, you can elevate your ESG data analysis and reporting to new heights, making informed decisions that drive sustainability and business success.
-The use cases above leverage product features that existing GenAI systems are unable to deliver. This underscores one of Sustella's core capabilities, setting us apart in the realm of AI enabled sustainability analysis.**
+By leveraging Sustella AI alongside your existing SaaS data platforms like UL360, you can elevate your ESG data analysis and reporting to new heights, making informed decisions that drive sustainability and business success.
+The use cases above leverage product features that existing GenAI systems are unable to deliver. This underscores one of Sustella's core capabilities, setting us apart in the realm of AI enabled sustainability analysis.
 
 
-![Sustella for Porsche](/img/blog/porsche2.png)
+
+## Sustella AI’s Commitment Client Data Protection
+
+At Sustella, we prioritize the security and confidentiality of our clients' data. Recognizing the sensitivity and importance of ESG data, we have implemented robust security measures to ensure data integrity and protection. For companies like Porsche, Sustella provides custom integration to their existing IT infrastructure enabling full control over data security according to internal compliance standards.
+
+**Deployment in Client's VPC:**
+
+**Virtual Private Cloud (VPC):** Sustella operates within the client’s VPC environment, providing an additional layer of security by isolating our systems from external threats. This setup ensures that all data processing occurs within the secure boundaries of the client's infrastructure.
+
+**Control and Ownership:** By deploying Sustella within the client’s VPC, clients maintain full control and ownership over their data, including access controls and security policies.
+
+**Data Privacy and Confidentiality:**
+
+**Confidentiality Agreements:** We enter into strict confidentiality agreements with all clients to safeguard their data. Our commitment to data privacy is unwavering, and we take every measure to ensure that client data remains confidential.
+
+**Privacy by Design:** Sustella prioritizes data privacy, adhering to privacy-by-design principles with integrated data protection measures. For fully private environments, local LLMs are utilized, while secure deployments via hyperscaling cloud solutions such as AWS, Azure, or Google offer proprietary services.
+Compliance with SOC2 Standards
+
+**SOC2 Conformity:** Sustella conforms to SOC2 (Service Organization Control Type 2) standards, which are stringent guidelines for cybersecurity and data protection.
+
 
 
 <!-- ## Your questions answered

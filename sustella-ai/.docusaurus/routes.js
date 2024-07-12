@@ -133,11 +133,6 @@ export default [
     exact: true
   },
   {
-    path: '/blog/experience-as-a-chaos-mesh-lfx-mentee/',
-    component: ComponentCreator('/blog/experience-as-a-chaos-mesh-lfx-mentee/', 'cc5'),
-    exact: true
-  },
-  {
     path: '/blog/how-a-top-game-company-uses-chaos-engineering-to-improve-testing/',
     component: ComponentCreator('/blog/how-a-top-game-company-uses-chaos-engineering-to-improve-testing/', '6c9'),
     exact: true
@@ -205,6 +200,11 @@ export default [
   {
     path: '/blog/simulating-clock-skew-in-k8s-without-affecting-other-containers-on-node/',
     component: ComponentCreator('/blog/simulating-clock-skew-in-k8s-without-affecting-other-containers-on-node/', '6a5'),
+    exact: true
+  },
+  {
+    path: '/blog/Sustella AI Founders Story/',
+    component: ComponentCreator('/blog/Sustella AI Founders Story/', '27b'),
     exact: true
   },
   {

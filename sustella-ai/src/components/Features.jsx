@@ -59,7 +59,7 @@ export default function Features() {
               }}
             >
               {
-                'In the Kubernetes realm, {crd} is a proven solution for implementing custom resources. Chaos Mesh leverages CRDs for natural integration with the Kubernetes ecosystem.'
+                'Climate risk forecasting'
               }
             </Translate>
           </p>

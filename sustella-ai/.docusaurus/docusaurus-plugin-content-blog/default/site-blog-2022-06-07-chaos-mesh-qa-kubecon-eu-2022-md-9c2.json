@@ -2,7 +2,7 @@
   "permalink": "/blog/chaos-mesh-qa-at-kubecon-eu-2022",
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/blog/2022-06-07-chaos-mesh-qa-kubecon-eu-2022.md",
   "source": "@site/blog/2022-06-07-chaos-mesh-qa-kubecon-eu-2022.md",
-  "title": "Sustella for Porsche",
+  "title": "Sustella AI for Porsche",
   "description": "Sustella for Porsche",
   "date": "2022-06-07T00:00:00.000Z",
   "tags": [
@@ -32,7 +32,7 @@
       "permalink": "/blog/tags/esg"
     }
   ],
-  "readingTime": 3.335,
+  "readingTime": 3.85,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -43,7 +43,7 @@
   ],
   "frontMatter": {
     "slug": "/chaos-mesh-qa-at-kubecon-eu-2022",
-    "title": "Sustella for Porsche",
+    "title": "Sustella AI for Porsche",
     "author": "Tanvi Sharma",
     "author_url": "https://github.com/chaos-mesh",
     "author_image_url": "https://falling-walls.com/wp-content/uploads/tanviphotocolor-768x880.jpeg",
@@ -58,7 +58,7 @@
   },
   "unlisted": false,
   "nextItem": {
-    "title": "Experience as an LFX Mentee for Chaos Mesh",
-    "permalink": "/blog/experience-as-a-chaos-mesh-lfx-mentee"
+    "title": "Sustella AI Founders Story",
+    "permalink": "/blog/Sustella AI Founders Story"
   }
 }
