@@ -26,7 +26,7 @@ import styles from './index.module.css'
 gsap.registerPlugin(ScrollTrigger)
 
 const description =
-  'Leveraging advanced multi-agent systems for a sustainable future'
+  'Sustella AI is at the forefront of leveraging advanced multi-agent systems to provide comprehensive solutions for climate and sustainability challenges. Our platform is designed with simplicity and power, enabling seamless automation of your most critical workflows.'
 
 function Home() {
   const { siteConfig } = useDocusaurusContext()
@@ -61,7 +61,7 @@ function Home() {
   return (
     <Layout description={description}>
       <Head>
-        <title>Sustella AI: {siteConfig.tagline}</title>
+        <title>Sustella AI {siteConfig.tagline}</title>
       </Head>
       <main>
         <div className="hero tw-relative tw-h-[768px] tw-pt-0 tw-overflow-hidden">
@@ -75,7 +75,7 @@ function Home() {
                     styles.heroTitle
                   )}
                 >
-                  <span>Sustella AI</span>
+                  <span>Advanced Multi-Agent System for a Sustainable Future</span>
 
                 </h1>
                 {/* Want to change the size of description so that it is rendered on a single line */}
@@ -140,7 +140,7 @@ function Home() {
             <div className="tw-max-w-[800px] tw-mb-12 tw-mx-auto tw-text-center">
               {/* TODO: add translation. */}
               <h2 className="tw-text-4xl xl:tw-text-5xl">
-              Analysis Family <span className={styles.heroTitle}>Sustella’s Product</span> Range
+               <span className={styles.heroTitle}>Sustella Studio</span>
               </h2>
              {/*  <p className="lg:tw-text-lg tw-font-medium">
               Multi Agents System for real sustainability and climate use cases
