@@ -123,7 +123,7 @@ const config = {
     },
     footer: {
       links: [
-        {
+       /*  {
           title: 'Documentation',
           items: [
             {
@@ -143,8 +143,8 @@ const config = {
               to: 'docs/faqs',
             },
           ],
-        },
-        {
+        }, */
+        /* {
           title: 'Community',
           items: [
             {
@@ -168,7 +168,7 @@ const config = {
               href: 'https://twitter.com/chaos_mesh',
             },
           ],
-        },
+        }, */
         {
           title: 'Acknowledgements',
           items: [

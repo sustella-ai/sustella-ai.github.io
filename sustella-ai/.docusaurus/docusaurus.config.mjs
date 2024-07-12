@@ -94,52 +94,6 @@ export default {
     "footer": {
       "links": [
         {
-          "title": "Documentation",
-          "items": [
-            {
-              "label": "Quick Start",
-              "to": "docs/quick-start"
-            },
-            {
-              "label": "Run a Chaos Experiment",
-              "to": "docs/run-a-chaos-experiment"
-            },
-            {
-              "label": "Developer Guide Overview",
-              "to": "docs/developer-guide-overview"
-            },
-            {
-              "label": "FAQs",
-              "to": "docs/faqs"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "blog"
-            },
-            {
-              "label": "CNCF Community Group",
-              "href": "https://community.cncf.io/chaos-mesh-community/"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/chaos-mesh/chaos-mesh"
-            },
-            {
-              "label": "Slack (#project-chaos-mesh)",
-              "href": "https://slack.cncf.io/"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/chaos_mesh"
-            }
-          ]
-        },
-        {
           "title": "Acknowledgements",
           "items": [
             {
