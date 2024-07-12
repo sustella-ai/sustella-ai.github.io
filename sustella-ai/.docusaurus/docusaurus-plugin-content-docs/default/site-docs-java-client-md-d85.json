@@ -5,7 +5,7 @@
   "source": "@site/docs/java-client.md",
   "sourceDirName": ".",
   "slug": "/java-client",
-  "permalink": "/docs/next/java-client",
+  "permalink": "/de/docs/next/java-client",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/java-client.md",

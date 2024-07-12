@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.5.2/simulate-network-chaos-in-physical-nodes.md",
   "sourceDirName": ".",
   "slug": "/simulate-network-chaos-in-physical-nodes",
-  "permalink": "/docs/2.5.2/simulate-network-chaos-in-physical-nodes",
+  "permalink": "/de/docs/2.5.2/simulate-network-chaos-in-physical-nodes",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.5.2/simulate-network-chaos-in-physical-nodes.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Simulate Process Faults",
-    "permalink": "/docs/2.5.2/simulate-process-chaos-in-physical-nodes"
+    "permalink": "/de/docs/2.5.2/simulate-process-chaos-in-physical-nodes"
   },
   "next": {
     "title": "Simulate Host Faults",
-    "permalink": "/docs/2.5.2/simulate-host-console-in-physical-nodes"
+    "permalink": "/de/docs/2.5.2/simulate-host-console-in-physical-nodes"
   }
 }

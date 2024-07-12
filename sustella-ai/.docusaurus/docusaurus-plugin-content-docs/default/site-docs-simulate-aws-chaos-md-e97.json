@@ -5,7 +5,7 @@
   "source": "@site/docs/simulate-aws-chaos.md",
   "sourceDirName": ".",
   "slug": "/simulate-aws-chaos",
-  "permalink": "/docs/next/simulate-aws-chaos",
+  "permalink": "/de/docs/next/simulate-aws-chaos",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/simulate-aws-chaos.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Simulate Linux Kernel Faults",
-    "permalink": "/docs/next/simulate-kernel-chaos-on-kubernetes"
+    "permalink": "/de/docs/next/simulate-kernel-chaos-on-kubernetes"
   },
   "next": {
     "title": "Simulate Azure Faults",
-    "permalink": "/docs/next/simulate-azure-chaos"
+    "permalink": "/de/docs/next/simulate-azure-chaos"
   }
 }

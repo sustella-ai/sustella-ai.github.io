@@ -5,7 +5,7 @@
   "source": "@site/docs/use-argo-to-orchestrate-chaos-experiments.md",
   "sourceDirName": ".",
   "slug": "/use-argo-to-orchestrate-chaos-experiments",
-  "permalink": "/docs/next/use-argo-to-orchestrate-chaos-experiments",
+  "permalink": "/de/docs/next/use-argo-to-orchestrate-chaos-experiments",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/use-argo-to-orchestrate-chaos-experiments.md",

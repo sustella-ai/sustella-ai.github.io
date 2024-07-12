@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.4.3/developer-guide-overview.md",
   "sourceDirName": ".",
   "slug": "/developer-guide-overview",
-  "permalink": "/docs/2.4.3/developer-guide-overview",
+  "permalink": "/de/docs/2.4.3/developer-guide-overview",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.4.3/developer-guide-overview.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Chaosctl",
-    "permalink": "/docs/2.4.3/chaosctl-tool"
+    "permalink": "/de/docs/2.4.3/chaosctl-tool"
   },
   "next": {
     "title": "Configure the Development Environment",
-    "permalink": "/docs/2.4.3/configure-development-environment"
+    "permalink": "/de/docs/2.4.3/configure-development-environment"
   }
 }

@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.6.3/simulate-azure-chaos.md",
   "sourceDirName": ".",
   "slug": "/simulate-azure-chaos",
-  "permalink": "/docs/simulate-azure-chaos",
+  "permalink": "/de/docs/simulate-azure-chaos",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.6.3/simulate-azure-chaos.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Simulate AWS Faults",
-    "permalink": "/docs/simulate-aws-chaos"
+    "permalink": "/de/docs/simulate-aws-chaos"
   },
   "next": {
     "title": "Simulate GCP Faults",
-    "permalink": "/docs/simulate-gcp-chaos"
+    "permalink": "/de/docs/simulate-gcp-chaos"
   }
 }

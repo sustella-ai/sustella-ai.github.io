@@ -5,7 +5,7 @@
   "source": "@site/docs/define-chaos-experiment-scope.md",
   "sourceDirName": ".",
   "slug": "/define-chaos-experiment-scope",
-  "permalink": "/docs/next/define-chaos-experiment-scope",
+  "permalink": "/de/docs/next/define-chaos-experiment-scope",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/define-chaos-experiment-scope.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Remote Cluster Management",
-    "permalink": "/docs/next/remote-cluster-management"
+    "permalink": "/de/docs/next/remote-cluster-management"
   },
   "next": {
     "title": "Define Scheduling Rules",
-    "permalink": "/docs/next/define-scheduling-rules"
+    "permalink": "/de/docs/next/define-scheduling-rules"
   }
 }

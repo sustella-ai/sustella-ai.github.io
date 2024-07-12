@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.6.3/simulate-kernel-chaos-on-kubernetes.md",
   "sourceDirName": ".",
   "slug": "/simulate-kernel-chaos-on-kubernetes",
-  "permalink": "/docs/simulate-kernel-chaos-on-kubernetes",
+  "permalink": "/de/docs/simulate-kernel-chaos-on-kubernetes",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.6.3/simulate-kernel-chaos-on-kubernetes.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Simulate JVM Application Faults",
-    "permalink": "/docs/simulate-jvm-application-chaos"
+    "permalink": "/de/docs/simulate-jvm-application-chaos"
   },
   "next": {
     "title": "Simulate AWS Faults",
-    "permalink": "/docs/simulate-aws-chaos"
+    "permalink": "/de/docs/simulate-aws-chaos"
   }
 }

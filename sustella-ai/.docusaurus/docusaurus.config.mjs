@@ -8,7 +8,7 @@ export default {
   "tagline": "Advanced Multi Agent System for a Sustainable Future",
   "favicon": "/img/favicon.ico",
   "url": "https://sustella-ai.github.io",
-  "baseUrl": "/",
+  "baseUrl": "/de/",
   "organizationName": "sustella-ai",
   "projectName": "https://sustella-ai.github.io/",
   "onBrokenLinks": "warn",

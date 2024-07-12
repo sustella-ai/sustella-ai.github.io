@@ -5,7 +5,7 @@
   "source": "@site/docs/expose-dashboard-with-ingress.md",
   "sourceDirName": ".",
   "slug": "/expose-dashboard-with-ingress",
-  "permalink": "/docs/next/expose-dashboard-with-ingress",
+  "permalink": "/de/docs/next/expose-dashboard-with-ingress",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/expose-dashboard-with-ingress.md",
@@ -15,10 +15,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Install Chaos Mesh Offline",
-    "permalink": "/docs/next/offline-installation"
+    "permalink": "/de/docs/next/offline-installation"
   },
   "next": {
     "title": "Persistence Chaos Dashboard",
-    "permalink": "/docs/next/persistence-dashboard"
+    "permalink": "/de/docs/next/persistence-dashboard"
   }
 }

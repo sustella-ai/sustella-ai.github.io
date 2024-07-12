@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.6.3/simulate-gcp-chaos.md",
   "sourceDirName": ".",
   "slug": "/simulate-gcp-chaos",
-  "permalink": "/docs/simulate-gcp-chaos",
+  "permalink": "/de/docs/simulate-gcp-chaos",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.6.3/simulate-gcp-chaos.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Simulate Azure Faults",
-    "permalink": "/docs/simulate-azure-chaos"
+    "permalink": "/de/docs/simulate-azure-chaos"
   },
   "next": {
     "title": "Simulate HTTP Faults",
-    "permalink": "/docs/simulate-http-chaos-on-kubernetes"
+    "permalink": "/de/docs/simulate-http-chaos-on-kubernetes"
   }
 }

@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.6.3/basic-features.md",
   "sourceDirName": ".",
   "slug": "/basic-features",
-  "permalink": "/docs/basic-features",
+  "permalink": "/de/docs/basic-features",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.6.3/basic-features.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Chaos Mesh Overview",
-    "permalink": "/docs/"
+    "permalink": "/de/docs/"
   },
   "next": {
     "title": "Quick Start",
-    "permalink": "/docs/quick-start"
+    "permalink": "/de/docs/quick-start"
   }
 }

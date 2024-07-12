@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.6.3/simulate-jvm-application-chaos.md",
   "sourceDirName": ".",
   "slug": "/simulate-jvm-application-chaos",
-  "permalink": "/docs/simulate-jvm-application-chaos",
+  "permalink": "/de/docs/simulate-jvm-application-chaos",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.6.3/simulate-jvm-application-chaos.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Simulate Time Faults",
-    "permalink": "/docs/simulate-time-chaos-on-kubernetes"
+    "permalink": "/de/docs/simulate-time-chaos-on-kubernetes"
   },
   "next": {
     "title": "Simulate Linux Kernel Faults",
-    "permalink": "/docs/simulate-kernel-chaos-on-kubernetes"
+    "permalink": "/de/docs/simulate-kernel-chaos-on-kubernetes"
   }
 }

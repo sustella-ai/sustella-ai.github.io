@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.6.3/extend-chaosd.md",
   "sourceDirName": ".",
   "slug": "/extend-chaosd",
-  "permalink": "/docs/extend-chaosd",
+  "permalink": "/de/docs/extend-chaosd",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.6.3/extend-chaosd.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Extend Chaos Daemon Interface",
-    "permalink": "/docs/extend-chaos-daemon-interface"
+    "permalink": "/de/docs/extend-chaos-daemon-interface"
   },
   "next": {
     "title": "FAQs",
-    "permalink": "/docs/faqs"
+    "permalink": "/de/docs/faqs"
   }
 }

@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.4.3/inspect-chaos-experiments.md",
   "sourceDirName": ".",
   "slug": "/inspect-chaos-experiments",
-  "permalink": "/docs/2.4.3/inspect-chaos-experiments",
+  "permalink": "/de/docs/2.4.3/inspect-chaos-experiments",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.4.3/inspect-chaos-experiments.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Run a Chaos Experiment",
-    "permalink": "/docs/2.4.3/run-a-chaos-experiment"
+    "permalink": "/de/docs/2.4.3/run-a-chaos-experiment"
   },
   "next": {
     "title": "Create Chaos Mesh Workflow",
-    "permalink": "/docs/2.4.3/create-chaos-mesh-workflow"
+    "permalink": "/de/docs/2.4.3/create-chaos-mesh-workflow"
   }
 }

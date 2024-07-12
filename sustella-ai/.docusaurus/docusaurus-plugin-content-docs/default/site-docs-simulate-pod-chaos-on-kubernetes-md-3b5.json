@@ -5,7 +5,7 @@
   "source": "@site/docs/simulate-pod-chaos-on-kubernetes.md",
   "sourceDirName": ".",
   "slug": "/simulate-pod-chaos-on-kubernetes",
-  "permalink": "/docs/next/simulate-pod-chaos-on-kubernetes",
+  "permalink": "/de/docs/next/simulate-pod-chaos-on-kubernetes",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/simulate-pod-chaos-on-kubernetes.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Status Check in Workflow",
-    "permalink": "/docs/next/status-check-in-workflow"
+    "permalink": "/de/docs/next/status-check-in-workflow"
   },
   "next": {
     "title": "Simulate Network Faults",
-    "permalink": "/docs/next/simulate-network-chaos-on-kubernetes"
+    "permalink": "/de/docs/next/simulate-network-chaos-on-kubernetes"
   }
 }

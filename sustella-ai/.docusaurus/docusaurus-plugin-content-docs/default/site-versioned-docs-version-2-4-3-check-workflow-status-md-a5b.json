@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.4.3/check-workflow-status.md",
   "sourceDirName": ".",
   "slug": "/check-workflow-status",
-  "permalink": "/docs/2.4.3/check-workflow-status",
+  "permalink": "/de/docs/2.4.3/check-workflow-status",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.4.3/check-workflow-status.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Send HTTP Requests on Workflow",
-    "permalink": "/docs/2.4.3/send-http-request-on-workflow"
+    "permalink": "/de/docs/2.4.3/send-http-request-on-workflow"
   },
   "next": {
     "title": "Status Check in Workflow",
-    "permalink": "/docs/2.4.3/status-check-in-workflow"
+    "permalink": "/de/docs/2.4.3/status-check-in-workflow"
   }
 }

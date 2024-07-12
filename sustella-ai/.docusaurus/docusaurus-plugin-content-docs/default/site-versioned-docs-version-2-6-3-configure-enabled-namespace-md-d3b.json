@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.6.3/configure-enabled-namespace.md",
   "sourceDirName": ".",
   "slug": "/configure-enabled-namespace",
-  "permalink": "/docs/configure-enabled-namespace",
+  "permalink": "/de/docs/configure-enabled-namespace",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.6.3/configure-enabled-namespace.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Manage User Permissions",
-    "permalink": "/docs/manage-user-permissions"
+    "permalink": "/de/docs/manage-user-permissions"
   },
   "next": {
     "title": "Remote Cluster Management",
-    "permalink": "/docs/remote-cluster-management"
+    "permalink": "/de/docs/remote-cluster-management"
   }
 }

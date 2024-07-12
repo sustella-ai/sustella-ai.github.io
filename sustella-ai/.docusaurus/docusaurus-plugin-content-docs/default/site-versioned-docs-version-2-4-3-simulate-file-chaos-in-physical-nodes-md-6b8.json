@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.4.3/simulate-file-chaos-in-physical-nodes.md",
   "sourceDirName": ".",
   "slug": "/simulate-file-chaos-in-physical-nodes",
-  "permalink": "/docs/2.4.3/simulate-file-chaos-in-physical-nodes",
+  "permalink": "/de/docs/2.4.3/simulate-file-chaos-in-physical-nodes",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.4.3/simulate-file-chaos-in-physical-nodes.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Simulate Time Faults",
-    "permalink": "/docs/2.4.3/simulate-time-chaos-on-physical-nodes"
+    "permalink": "/de/docs/2.4.3/simulate-time-chaos-on-physical-nodes"
   },
   "next": {
     "title": "Simulate Redis Faults",
-    "permalink": "/docs/2.4.3/simulate-redis-chaos-on-physical-nodes"
+    "permalink": "/de/docs/2.4.3/simulate-redis-chaos-on-physical-nodes"
   }
 }

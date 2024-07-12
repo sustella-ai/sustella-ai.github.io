@@ -5,7 +5,7 @@
   "source": "@site/docs/simulate-dns-chaos-on-kubernetes.md",
   "sourceDirName": ".",
   "slug": "/simulate-dns-chaos-on-kubernetes",
-  "permalink": "/docs/next/simulate-dns-chaos-on-kubernetes",
+  "permalink": "/de/docs/next/simulate-dns-chaos-on-kubernetes",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/simulate-dns-chaos-on-kubernetes.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Simulate File I/O Faults",
-    "permalink": "/docs/next/simulate-io-chaos-on-kubernetes"
+    "permalink": "/de/docs/next/simulate-io-chaos-on-kubernetes"
   },
   "next": {
     "title": "Simulate Time Faults",
-    "permalink": "/docs/next/simulate-time-chaos-on-kubernetes"
+    "permalink": "/de/docs/next/simulate-time-chaos-on-kubernetes"
   }
 }

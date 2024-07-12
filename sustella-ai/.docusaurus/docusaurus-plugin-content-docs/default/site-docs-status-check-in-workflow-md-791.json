@@ -5,7 +5,7 @@
   "source": "@site/docs/status-check-in-workflow.md",
   "sourceDirName": ".",
   "slug": "/status-check-in-workflow",
-  "permalink": "/docs/next/status-check-in-workflow",
+  "permalink": "/de/docs/next/status-check-in-workflow",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/status-check-in-workflow.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Check Workflow Status",
-    "permalink": "/docs/next/check-workflow-status"
+    "permalink": "/de/docs/next/check-workflow-status"
   },
   "next": {
     "title": "Simulate Pod Faults",
-    "permalink": "/docs/next/simulate-pod-chaos-on-kubernetes"
+    "permalink": "/de/docs/next/simulate-pod-chaos-on-kubernetes"
   }
 }

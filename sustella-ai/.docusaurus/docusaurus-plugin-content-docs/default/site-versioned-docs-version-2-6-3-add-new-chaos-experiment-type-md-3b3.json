@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.6.3/add-new-chaos-experiment-type.md",
   "sourceDirName": ".",
   "slug": "/add-new-chaos-experiment-type",
-  "permalink": "/docs/add-new-chaos-experiment-type",
+  "permalink": "/de/docs/add-new-chaos-experiment-type",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.6.3/add-new-chaos-experiment-type.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Configure the Development Environment",
-    "permalink": "/docs/configure-development-environment"
+    "permalink": "/de/docs/configure-development-environment"
   },
   "next": {
     "title": "Extend Chaos Daemon Interface",
-    "permalink": "/docs/extend-chaos-daemon-interface"
+    "permalink": "/de/docs/extend-chaos-daemon-interface"
   }
 }

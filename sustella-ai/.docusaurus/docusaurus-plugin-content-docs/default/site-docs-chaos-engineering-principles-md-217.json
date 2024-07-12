@@ -5,7 +5,7 @@
   "source": "@site/docs/chaos-engineering-principles.md",
   "sourceDirName": ".",
   "slug": "/chaos-engineering-principles",
-  "permalink": "/docs/next/chaos-engineering-principles",
+  "permalink": "/de/docs/next/chaos-engineering-principles",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/chaos-engineering-principles.md",

@@ -5,7 +5,7 @@
   "source": "@site/docs/offline-installation.md",
   "sourceDirName": ".",
   "slug": "/offline-installation",
-  "permalink": "/docs/next/offline-installation",
+  "permalink": "/de/docs/next/offline-installation",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/offline-installation.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Install Chaos Mesh using Helm",
-    "permalink": "/docs/next/production-installation-using-helm"
+    "permalink": "/de/docs/next/production-installation-using-helm"
   },
   "next": {
     "title": "Expose Chaos Dashboard with Ingress",
-    "permalink": "/docs/next/expose-dashboard-with-ingress"
+    "permalink": "/de/docs/next/expose-dashboard-with-ingress"
   }
 }

@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.4.3/offline-installation.md",
   "sourceDirName": ".",
   "slug": "/offline-installation",
-  "permalink": "/docs/2.4.3/offline-installation",
+  "permalink": "/de/docs/2.4.3/offline-installation",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.4.3/offline-installation.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Install Chaos Mesh using Helm",
-    "permalink": "/docs/2.4.3/production-installation-using-helm"
+    "permalink": "/de/docs/2.4.3/production-installation-using-helm"
   },
   "next": {
     "title": "Persistence Chaos Dashboard",
-    "permalink": "/docs/2.4.3/persistence-dashboard"
+    "permalink": "/de/docs/2.4.3/persistence-dashboard"
   }
 }
