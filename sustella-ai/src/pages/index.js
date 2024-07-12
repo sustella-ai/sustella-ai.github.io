@@ -140,11 +140,11 @@ function Home() {
             <div className="tw-max-w-[800px] tw-mb-12 tw-mx-auto tw-text-center">
               {/* TODO: add translation. */}
               <h2 className="tw-text-4xl xl:tw-text-5xl">
-                Make <span className={styles.heroTitle}>Multi Agent Systems</span> solve your problems.
+              Analysis Family <span className={styles.heroTitle}>Sustella’s Product</span> Range
               </h2>
-              <p className="lg:tw-text-lg tw-font-medium">
+             {/*  <p className="lg:tw-text-lg tw-font-medium">
               Multi Agents System for real sustainability and climate use cases
-              </p>
+              </p> */}
             </div>
 
             <div className="tw-grid tw-gap-8 lg:tw-grid-rows-2 lg:tw-grid-cols-6">

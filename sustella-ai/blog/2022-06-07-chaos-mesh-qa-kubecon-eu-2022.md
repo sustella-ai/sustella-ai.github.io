@@ -1,26 +1,48 @@
 ---
 slug: /chaos-mesh-qa-at-kubecon-eu-2022
-title: 'Chaos Mesh Q&A at KUBECON EU 2022'
-author: Chaos Mesh Community
+title: 'Sustella for Porsche'
+author: Tanvi Sharma
 author_url: https://github.com/chaos-mesh
-author_image_url: https://avatars1.githubusercontent.com/u/59082378?v=4
+author_image_url: https://falling-walls.com/wp-content/uploads/tanviphotocolor-768x880.jpeg
 image: /img/blog/chaos-mesh-q&a.jpeg
-tags: [Chaos Mesh, Chaos Engineering, KubeCon, CloudNativeCon]
+tags: [Porsche, Sustella, AI, AI Agents, ESG]
 ---
 
-![Chaos Mesh Q&A](/img/blog/chaos-mesh-q&a.jpeg)
+![Sustella for Porsche](/img/blog/porsche-taycan-turbo-s.jpg) 
 
-At KubeCon EU 2022, the [Chaos Mesh](https://chaos-mesh.org/) team hosted two activities "Make Cloud Native Chaos Engineering Easier - Deep Dive into Chaos Mesh" and "office hours session". We are very grateful and enjoyed it with all of you very much. We shared with each other, got to know each other, and discussed a lot of things in depth.
+<!-- At KubeCon EU 2022, the [Chaos Mesh](https://chaos-mesh.org/) team hosted two activities "Make Cloud Native Chaos Engineering Easier - Deep Dive into Chaos Mesh" and "office hours session". We are very grateful and enjoyed it with all of you very much. We shared with each other, got to know each other, and discussed a lot of things in depth. -->
+
+## Company Overview
+
+Sustella AI is at the forefront of leveraging advanced multi-agent systems to provide comprehensive solutions for climate and sustainability challenges. Our platform is designed with simplicity and power, enabling seamless automation of your most critical workflows.
+
 
 <!--truncate-->
 
-For the presentations, we gave a brief overview of Chaos Mesh, then delved into how Chaos Mesh is implemented and how it is practiced, and shared the team's latest explorations around chaos engineering and plans for Chaos Mesh's development.
+## Why Sustella AI?
 
-For Office Hour, we introduced the Chaos Mesh project and its latest progress, and answered online questions from attendees.
+**AI Agents for Real Use Cases:** We deliver the power of AI with unparalleled simplicity, allowing you to quickly automate essential workflows and achieve impactful results.
 
-Many thanks to each of our friends that came out to support us! And for Office Hour, we received some great questions and we decided to have a follow-up Q&A.
+**The Future of Conversational AI:** Our custom-trained AI agents are tailored to your business needs. You can verbally ask our agents for your analysis. They operate around the clock, creating personalized conversations for every stakeholder, ensuring continuous engagement and support.
 
-## Your questions answered
+**Empowering Business Intelligence:** Our AI agent teams are focused on automating the analysis so you can focus on insights and decision making.
+
+**Sustella AI is transforming the way you drive sustainability in your business. With Sustella AI, your analysis becomes faster and efficient so you can make decisions with ease.**
+
+## Illustrative example - Sustella AI: Your Analysis Agent Team for ESG Excellence
+
+The strongest capability of Sustella AI is its ability to act as your personalized analysis assistant, specifically tailored to your unique use cases. Here's how Sustella AI complements existing SaaS data platforms like UL360 in the realm of ESG data analysis:
+
+![Sustella for Porsche](/img/blog/porsche1.png)
+
+**By leveraging Sustella AI alongside your existing SaaS data platforms like UL360, you can elevate your ESG data analysis and reporting to new heights, making informed decisions that drive sustainability and business success.
+The use cases above leverage product features that existing GenAI systems are unable to deliver. This underscores one of Sustella's core capabilities, setting us apart in the realm of AI enabled sustainability analysis.**
+
+
+![Sustella for Porsche](/img/blog/porsche2.png)
+
+
+<!-- ## Your questions answered
 
 **Q: Does chaos play well with Windows/Linux hybrid clusters?**
 
@@ -46,4 +68,4 @@ When using clium CNI without iptables, Chaos Mesh still works.
 
 ## Join the Chaos Mesh community
 
-If you are interested in Chaos Mesh and would like to help us improve it, you're welcome to join [our Slack channel](https://slack.cncf.io/)(#project-chaos-mesh) or submit your pull requests or issues to our [GitHub repository](https://github.com/chaos-mesh/chaos-mesh).
+If you are interested in Chaos Mesh and would like to help us improve it, you're welcome to join [our Slack channel](https://slack.cncf.io/)(#project-chaos-mesh) or submit your pull requests or issues to our [GitHub repository](https://github.com/chaos-mesh/chaos-mesh). -->

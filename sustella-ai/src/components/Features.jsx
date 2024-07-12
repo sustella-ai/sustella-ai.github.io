@@ -42,7 +42,7 @@ export default function Features() {
     <>
       {<Feature
         imgUrl="img/logos/kubernetes.svg"
-        title={<Translate id="home.k8s">Design for Kubernetes</Translate>}
+        title={<Translate id="home.k8s">Prediction/forecasting</Translate>}
         description={
           <p>
             <Translate
@@ -67,13 +67,13 @@ export default function Features() {
         className="lg:tw-col-span-2"
       />}
       <Feature
-        imgUrl="img/features/easy-to-use.svg"
-        title={<Translate id="home.easytouse">Easy to Use</Translate>}
+        imgUrl="img/features/Int1.svg"
+        title={<Translate id="">Decision intelligence</Translate>}
         description={
           <>
             <p>
               <Translate
-                id="home.easytouse.1"
+                id=""
                 values={{
                   minikube: (
                     <Link className="tw-underline dark:tw-no-underline" to="https://minikube.sigs.k8s.io/">
@@ -81,15 +81,15 @@ export default function Features() {
                     </Link>
                   ),
                   kind: (
-                    <Link className="tw-underline dark:tw-no-underline" to="https://kind.sigs.k8s.io/">
+                    {/* <Link className="tw-underline dark:tw-no-underline" to="https://kind.sigs.k8s.io/">
                       kind
-                    </Link>
+                    </Link> */}
                   ),
                 }}
               >
-                {
+                {/* {
                   'No special dependencies, Chaos Mesh can be easily deployed on Kubernetes clusters directly, including {minikube} and {kind}.'
-                }
+                } */}
               </Translate>
             </p>
             <ul>
