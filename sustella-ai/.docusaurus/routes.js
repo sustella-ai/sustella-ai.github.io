@@ -213,6 +213,16 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/ai-agents/',
+    component: ComponentCreator('/blog/tags/ai-agents/', '8b9'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/ai/',
+    component: ComponentCreator('/blog/tags/ai/', '0ee'),
+    exact: true
+  },
+  {
     path: '/blog/tags/announcement/',
     component: ComponentCreator('/blog/tags/announcement/', 'dff'),
     exact: true
@@ -224,32 +234,32 @@ export default [
   },
   {
     path: '/blog/tags/chaos-engineering/',
-    component: ComponentCreator('/blog/tags/chaos-engineering/', '275'),
+    component: ComponentCreator('/blog/tags/chaos-engineering/', 'c2c'),
     exact: true
   },
   {
     path: '/blog/tags/chaos-engineering/page/2/',
-    component: ComponentCreator('/blog/tags/chaos-engineering/page/2/', '2f7'),
+    component: ComponentCreator('/blog/tags/chaos-engineering/page/2/', '828'),
     exact: true
   },
   {
     path: '/blog/tags/chaos-engineering/page/3/',
-    component: ComponentCreator('/blog/tags/chaos-engineering/page/3/', '274'),
+    component: ComponentCreator('/blog/tags/chaos-engineering/page/3/', 'ae6'),
     exact: true
   },
   {
     path: '/blog/tags/chaos-mesh/',
-    component: ComponentCreator('/blog/tags/chaos-mesh/', '824'),
+    component: ComponentCreator('/blog/tags/chaos-mesh/', 'a0a'),
     exact: true
   },
   {
     path: '/blog/tags/chaos-mesh/page/2/',
-    component: ComponentCreator('/blog/tags/chaos-mesh/page/2/', 'b95'),
+    component: ComponentCreator('/blog/tags/chaos-mesh/page/2/', '4df'),
     exact: true
   },
   {
     path: '/blog/tags/chaos-mesh/page/3/',
-    component: ComponentCreator('/blog/tags/chaos-mesh/page/3/', 'cf7'),
+    component: ComponentCreator('/blog/tags/chaos-mesh/page/3/', '048'),
     exact: true
   },
   {
@@ -260,11 +270,6 @@ export default [
   {
     path: '/blog/tags/ci/',
     component: ComponentCreator('/blog/tags/ci/', '00f'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/cloud-native-con/',
-    component: ComponentCreator('/blog/tags/cloud-native-con/', 'e2a'),
     exact: true
   },
   {
@@ -288,6 +293,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/esg/',
+    component: ComponentCreator('/blog/tags/esg/', '308'),
+    exact: true
+  },
+  {
     path: '/blog/tags/event/',
     component: ComponentCreator('/blog/tags/event/', 'c3c'),
     exact: true
@@ -300,11 +310,6 @@ export default [
   {
     path: '/blog/tags/git-hub-action/',
     component: ComponentCreator('/blog/tags/git-hub-action/', 'f64'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/kube-con/',
-    component: ComponentCreator('/blog/tags/kube-con/', '72b'),
     exact: true
   },
   {
@@ -328,6 +333,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/porsche/',
+    component: ComponentCreator('/blog/tags/porsche/', 'f28'),
+    exact: true
+  },
+  {
     path: '/blog/tags/stress-chaos/',
     component: ComponentCreator('/blog/tags/stress-chaos/', '24f'),
     exact: true
@@ -335,6 +345,11 @@ export default [
   {
     path: '/blog/tags/stress-testing/',
     component: ComponentCreator('/blog/tags/stress-testing/', '788'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/sustella/',
+    component: ComponentCreator('/blog/tags/sustella/', 'a1d'),
     exact: true
   },
   {
