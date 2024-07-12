@@ -142,9 +142,9 @@ function Home() {
               <h2 className="tw-text-4xl xl:tw-text-5xl">
                <span className={styles.heroTitle}>Sustella Studio</span>
               </h2>
-             {/*  <p className="lg:tw-text-lg tw-font-medium">
-              Multi Agents System for real sustainability and climate use cases
-              </p> */}
+              <p className="lg:tw-text-lg tw-font-medium">
+              Coming soon
+              </p>
             </div>
 
             <div className="tw-grid tw-gap-8 lg:tw-grid-rows-2 lg:tw-grid-cols-6">
@@ -158,26 +158,32 @@ function Home() {
             <div className="tw-max-w-[800px] tw-mx-auto tw-text-center">
               {/* TODO: add translation. */}
               <h2 className="tw-text-4xl xl:tw-text-5xl">
-                <span className={styles.heroTitle}>Wide variety</span> of failure types.
+               Why <span className={styles.heroTitle}>Sustella AI</span>?
               </h2>
-              <p className="lg:tw-text-lg tw-font-medium">
-                <Translate id="home.failuretypes.1">
-                  Chaos Mesh initially started from a distributed system perspective, fully considering its possible
-                  failures, thus providing more comprehensive and fine-grained fault types to help users with fault
-                  injection for networks, disks, file systems, operating systems, etc.
-                </Translate>
+              <p className="lg:tw-text-lg tw-font-medium left-aligned">
+                  <ul>
+                    <li>
+                    <b>AI Agents for Real Use Cases:</b> We deliver the power of AI with unparalleled simplicity, allowing you to quickly automate essential workflows and achieve impactful results.
+                    </li>
+                    <li>
+                    <b>The Future of Conversational AI:</b> Our custom-trained AI agents are tailored to your business needs. You can verbally ask our agents for your analysis. They operate around the clock, creating personalized conversations for every stakeholder, ensuring continuous engagement and support.
+                    </li>
+                    <li>
+                    <b>Business Intelligence:</b> Our AI agent teams are focused on automating the analysis so you can focus on insights and decision making.
+                    </li>
+                  </ul>
               </p>
             </div>
-            <img
+            {/* <img
               className={clsx(
                 'tw-block tw-mx-auto tw-select-none dark:tw-invert-[.85] dark:tw-saturate-0',
                 styles.chaosCategory
               )}
               src="img/home/chaos-category.svg"
               alt="Chaos Category"
-            />
+            /> */}
 
-            <div className="tw-flex tw-justify-center tw-mt-12">
+            {/* <div className="tw-flex tw-justify-center tw-mt-12">
               <Link
                 to="/docs/simulate-pod-chaos-on-kubernetes"
                 className="tw-btn tw-btn-primary tw-gap-2 hover:tw-text-white hover:-tw-translate-y-[3px]"
@@ -185,7 +191,7 @@ function Home() {
                 <IconLibrary className="tw-w-4 tw-h-4 tw-fill-white" />
                 Explore More
               </Link>
-            </div>
+            </div> */}
             <div className="tw-grid tw-gap-8 lg:tw-grid-cols-3 tw-my-12">
               <CodeGrid />
             </div>
@@ -193,40 +199,40 @@ function Home() {
         </div>
 
         <div className="hero tw-relative">
-          <div className="tw-absolute tw-top-[-50px] tw-left-0 md:tw-top-[-100px] xl:tw-top-[-200px] tw-w-full">
+          {/* <div className="tw-absolute tw-top-[-50px] tw-left-0 md:tw-top-[-100px] xl:tw-top-[-200px] tw-w-full">
             <img src="/img/home/curve-divider.svg" />
-          </div>
+          </div> */}
           <div className="tw-container tw-mx-auto max-lg:tw-px-4">
             <div className="tw-relative tw-flex tw-flex-col lg:tw-flex-row lg:tw-items-center tw-gap-8">
               <div className="tw-flex-1">
                 <div className="xl:tw-w-[90%]">
                   {/* TODO: add translation. */}
-                  <h2 className="tw-text-4xl xl:tw-text-5xl">
+                  {/* <h2 className="tw-text-4xl xl:tw-text-5xl">
                     Orchestrate complex fault scenarios with <span className={styles.heroTitle}>Workflows</span>.
-                  </h2>
-                  <p className="lg:tw-text-lg tw-font-medium">
+                  </h2> */}
+                  {/* <p className="lg:tw-text-lg tw-font-medium">
                     Real-world failures are often not isolated causes.Chaos Mesh has built-in workflows that allow you
                     to experiment serially or in parallel at will to build walkthroughs that fit the architecture.
-                  </p>
+                  </p> */}
                   <div className="tw-flex tw-gap-4 tw-mb-6">
-                    <Card>
+                    {/* <Card>
                       <h4 className="text-lg">Suspend</h4>
                       <p>You can also use the suspend node to simulate a temporary recovery.</p>
                     </Card>
                     <Card>
                       <h4 className="text-lg">Status Check</h4>
                       <p>You can also use customized status checks to inform the cluster status.</p>
-                    </Card>
+                    </Card> */}
                   </div>
-                  <Link
+                  {/* <Link
                     to="/docs/create-chaos-mesh-workflow/"
                     className="tw-btn tw-btn-primary tw-gap-2 hover:tw-text-white hover:-tw-translate-y-[3px]"
                   >
                     Start Creating →
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
-              <div className={clsx('tw-flex-[1.5] tw-rounded-2xl', styles.workflowsImg)} />
+              {/* <div className={clsx('tw-flex-[1.5] tw-rounded-2xl', styles.workflowsImg)} /> */}
             </div>
           </div>
         </div>
@@ -243,10 +249,10 @@ function Home() {
               <div className="tw-flex-[1.5] tw-z-10">
                 <span className="tw-badge tw-badge-primary">Experimental</span>
                 {/* TODO: add translation. */}
-                <h2 className="tw-text-4xl xl:tw-text-5xl">
+                {/* <h2 className="tw-text-4xl xl:tw-text-5xl">
                   Meet <span className={styles.heroTitle}>Chaosd</span>: A Chaos Toolkit for Physical Machines.
-                </h2>
-                <p className="lg:tw-text-lg tw-font-medium">
+                </h2> */}
+                {/* <p className="lg:tw-text-lg tw-font-medium">
                   Even if you are not using Kubernetes, you can still take advantage of the features offered by Chaos
                   Mesh. One of our experimental tools, Chaosd, is specifically designed to test chaos on physical
                   machines. Moreover, you can use{' '}
@@ -254,13 +260,13 @@ function Home() {
                     PhysicalMachineChaos
                   </Link>{' '}
                   in Chaos Mesh to remotely invoke Chaosd for conducting experiments on physical machines.
-                </p>
-                <Link
+                </p> */}
+                {/* <Link
                   to="/docs/chaosd-overview/"
                   className="tw-btn tw-btn-primary tw-gap-2 hover:tw-text-white hover:-tw-translate-y-[3px]"
                 >
                   Overview →
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -270,18 +276,18 @@ function Home() {
           <div className="tw-container tw-mx-auto max-lg:tw-px-4">
             <div className="tw-max-w-[800px] tw-mb-12 tw-mx-auto tw-text-center">
               {/* TODO: add translation. */}
-              <h2 className="tw-text-4xl xl:tw-text-5xl">
+             {/*  <h2 className="tw-text-4xl xl:tw-text-5xl">
                 Building the Whole Community <span className={styles.heroTitle}>Together</span>.
-              </h2>
-              <p className="lg:tw-text-lg tw-font-medium">
+              </h2> */}
+              {/* <p className="lg:tw-text-lg tw-font-medium">
                 <Translate id="home.buildcommunity.1">
                   Join the community and talk to the maintainers and other users, your suggestions can make Chaos Mesh
                   even better.
                 </Translate>
-              </p>
+              </p> */}
             </div>
             <div className="tw-grid lg:tw-grid-cols-3 tw-gap-8 tw-mb-12 lg:tw-w-[80%] lg:tw-mx-auto">
-              <Card>
+              {/* <Card>
                 <IconGithub className="tw-w-12 tw-h-12 dark:tw-fill-white" />
                 <p>Join our contributors in building the future of Sustella</p>
                 <Link
@@ -290,8 +296,8 @@ function Home() {
                 >
                   Star on GitHub
                 </Link>
-              </Card>
-              <Card>
+              </Card> */}
+              {/* <Card>
                 <IconHelp className="tw-w-12 tw-h-12 dark:tw-fill-white" />
                 <p>Experiencing any issues? Don't hesitate to reach out to us for assistance.</p>
                 <div className="tw-flex tw-gap-3">
@@ -308,8 +314,8 @@ function Home() {
                     Discussions
                   </Link>
                 </div>
-              </Card>
-              <Card>
+              </Card> */}
+              {/* <Card>
                 <img className="tw-w-12 tw-h-12 tw-scale-150" src="/img/icons/slack.svg" alt="Slack" />
                 <p>Connect with other users on our Slack channel (#project-chaos-mesh).</p>
                 <Link
@@ -318,16 +324,16 @@ function Home() {
                 >
                   Join Slack channel
                 </Link>
-              </Card>
+              </Card> */}
             </div>
-            <p className="tw-font-medium tw-text-center">
+            {/* <p className="tw-font-medium tw-text-center">
               Chaos Mesh is a{' '}
               <Link className="tw-underline dark:tw-no-underline" to="https://cncf.io/">
                 Cloud Native Computing Foundation
               </Link>{' '}
               incubating project.
-            </p>
-            <div className="cncf-logo tw-h-16" />
+            </p> */}
+            {/* <div className="cncf-logo tw-h-16" /> */}
           </div>
         </div>
       </main>

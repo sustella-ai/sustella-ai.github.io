@@ -42,7 +42,7 @@ export default function Features() {
     <>
       <Feature
         imgUrl="img/features/Int1.svg"
-        title={<Translate id="">Decision intelligence</Translate>}
+        title={<Translate id="">Prediction/ Forecasting</Translate>}
         description={
           <>
             <p>
@@ -69,14 +69,28 @@ export default function Features() {
             <ul>
               <li>
                 <Translate id="home.easytouse.2">
-                  Ability to perform chaos experiments in production environments without modifying the deployment logic
-                  of applications.
+                Climate risk forecasting
                 </Translate>
               </li>
               <li>
                 <Translate id="home.easytouse.3">
-                  Quickly create chaos experiments through the dashboard, allowing users to observe the experiment's
-                  state in real time and quickly roll back any injected failures.
+                Supplier risk forecasting
+                </Translate>
+              </li>
+              <li>
+                <Translate id="home.easytouse.3">
+                Internal carbon pricing
+                </Translate>
+              </li>
+              <li>
+                <Translate id="home.easytouse.3">
+                Carbon emission forecasting
+
+                </Translate>
+              </li>
+              <li>
+                <Translate id="home.easytouse.3">
+                ESG score prediction
                 </Translate>
               </li>
             </ul>
@@ -113,14 +127,17 @@ export default function Features() {
             <ul>
               <li>
                 <Translate id="home.easytouse.2">
-                  Ability to perform chaos experiments in production environments without modifying the deployment logic
-                  of applications.
+                Targets dissemination
                 </Translate>
               </li>
               <li>
                 <Translate id="home.easytouse.3">
-                  Quickly create chaos experiments through the dashboard, allowing users to observe the experiment's
-                  state in real time and quickly roll back any injected failures.
+                Decarbonization roadmaps
+                </Translate>
+              </li>
+              <li>
+                <Translate id="home.easytouse.3">
+                Transition planning
                 </Translate>
               </li>
             </ul>
@@ -130,7 +147,8 @@ export default function Features() {
       />
        <Feature
         imgUrl="img/features/Int1.svg"
-        title={<Translate id="">Decision intelligence</Translate>}
+        title={<Translate id="">Segmentation/ Classification
+</Translate>}
         description={
           <>
             <p>
@@ -157,14 +175,17 @@ export default function Features() {
             <ul>
               <li>
                 <Translate id="home.easytouse.2">
-                  Ability to perform chaos experiments in production environments without modifying the deployment logic
-                  of applications.
+                Employee engagement and retention
                 </Translate>
               </li>
               <li>
                 <Translate id="home.easytouse.3">
-                  Quickly create chaos experiments through the dashboard, allowing users to observe the experiment's
-                  state in real time and quickly roll back any injected failures.
+                Industry benchmarking
+                </Translate>
+              </li>
+              <li>
+                <Translate id="home.easytouse.3">
+                Materiality assessments
                 </Translate>
               </li>
             </ul>
@@ -174,7 +195,7 @@ export default function Features() {
       />
        <Feature
         imgUrl="img/features/Int1.svg"
-        title={<Translate id="">Decision intelligence</Translate>}
+        title={<Translate id="">Recommendation systems</Translate>}
         description={
           <>
             <p>
@@ -201,14 +222,12 @@ export default function Features() {
             <ul>
               <li>
                 <Translate id="home.easytouse.2">
-                  Ability to perform chaos experiments in production environments without modifying the deployment logic
-                  of applications.
+                Adaptation/ Mitigation strategies
                 </Translate>
               </li>
               <li>
                 <Translate id="home.easytouse.3">
-                  Quickly create chaos experiments through the dashboard, allowing users to observe the experiment's
-                  state in real time and quickly roll back any injected failures.
+                Sustainable procurement
                 </Translate>
               </li>
             </ul>
