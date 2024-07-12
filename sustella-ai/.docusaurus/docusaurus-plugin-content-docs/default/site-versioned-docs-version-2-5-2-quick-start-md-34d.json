@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.5.2/quick-start.md",
   "sourceDirName": ".",
   "slug": "/quick-start",
-  "permalink": "/docs/2.5.2/quick-start",
+  "permalink": "/de/docs/2.5.2/quick-start",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.5.2/quick-start.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Basic Features",
-    "permalink": "/docs/2.5.2/basic-features"
+    "permalink": "/de/docs/2.5.2/basic-features"
   },
   "next": {
     "title": "Install Chaos Mesh using Helm",
-    "permalink": "/docs/2.5.2/production-installation-using-helm"
+    "permalink": "/de/docs/2.5.2/production-installation-using-helm"
   }
 }

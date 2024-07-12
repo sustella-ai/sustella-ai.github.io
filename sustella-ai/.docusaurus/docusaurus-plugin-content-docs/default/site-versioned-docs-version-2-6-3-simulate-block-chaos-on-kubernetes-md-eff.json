@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.6.3/simulate-block-chaos-on-kubernetes.md",
   "sourceDirName": ".",
   "slug": "/simulate-block-chaos-on-kubernetes",
-  "permalink": "/docs/simulate-block-chaos-on-kubernetes",
+  "permalink": "/de/docs/simulate-block-chaos-on-kubernetes",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.6.3/simulate-block-chaos-on-kubernetes.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Simulate HTTP Faults",
-    "permalink": "/docs/simulate-http-chaos-on-kubernetes"
+    "permalink": "/de/docs/simulate-http-chaos-on-kubernetes"
   },
   "next": {
     "title": "Chaosd Introduction",
-    "permalink": "/docs/chaosd-overview"
+    "permalink": "/de/docs/chaosd-overview"
   }
 }

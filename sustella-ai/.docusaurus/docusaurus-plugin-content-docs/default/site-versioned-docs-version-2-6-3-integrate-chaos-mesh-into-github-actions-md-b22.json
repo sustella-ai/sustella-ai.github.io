@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.6.3/integrate-chaos-mesh-into-github-actions.md",
   "sourceDirName": ".",
   "slug": "/integrate-chaos-mesh-into-github-actions",
-  "permalink": "/docs/integrate-chaos-mesh-into-github-actions",
+  "permalink": "/de/docs/integrate-chaos-mesh-into-github-actions",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.6.3/integrate-chaos-mesh-into-github-actions.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "GCP OAuth Authentication",
-    "permalink": "/docs/gcp-authentication"
+    "permalink": "/de/docs/gcp-authentication"
   },
   "next": {
     "title": "Use Grafana Data Source Plugin for Observations",
-    "permalink": "/docs/use-grafana-data-source"
+    "permalink": "/de/docs/use-grafana-data-source"
   }
 }

@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.6.3/simulate-heavy-stress-on-kubernetes.md",
   "sourceDirName": ".",
   "slug": "/simulate-heavy-stress-on-kubernetes",
-  "permalink": "/docs/simulate-heavy-stress-on-kubernetes",
+  "permalink": "/de/docs/simulate-heavy-stress-on-kubernetes",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.6.3/simulate-heavy-stress-on-kubernetes.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Simulate Network Faults",
-    "permalink": "/docs/simulate-network-chaos-on-kubernetes"
+    "permalink": "/de/docs/simulate-network-chaos-on-kubernetes"
   },
   "next": {
     "title": "Simulate File I/O Faults",
-    "permalink": "/docs/simulate-io-chaos-on-kubernetes"
+    "permalink": "/de/docs/simulate-io-chaos-on-kubernetes"
   }
 }

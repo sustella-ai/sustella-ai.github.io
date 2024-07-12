@@ -5,7 +5,7 @@
   "source": "@site/docs/production-installation-using-helm.md",
   "sourceDirName": ".",
   "slug": "/production-installation-using-helm",
-  "permalink": "/docs/next/production-installation-using-helm",
+  "permalink": "/de/docs/next/production-installation-using-helm",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/production-installation-using-helm.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Quick Start",
-    "permalink": "/docs/next/quick-start"
+    "permalink": "/de/docs/next/quick-start"
   },
   "next": {
     "title": "Install Chaos Mesh Offline",
-    "permalink": "/docs/next/offline-installation"
+    "permalink": "/de/docs/next/offline-installation"
   }
 }

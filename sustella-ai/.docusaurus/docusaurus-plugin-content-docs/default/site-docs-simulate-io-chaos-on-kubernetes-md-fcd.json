@@ -5,7 +5,7 @@
   "source": "@site/docs/simulate-io-chaos-on-kubernetes.md",
   "sourceDirName": ".",
   "slug": "/simulate-io-chaos-on-kubernetes",
-  "permalink": "/docs/next/simulate-io-chaos-on-kubernetes",
+  "permalink": "/de/docs/next/simulate-io-chaos-on-kubernetes",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/simulate-io-chaos-on-kubernetes.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Simulate Stress Scenarios",
-    "permalink": "/docs/next/simulate-heavy-stress-on-kubernetes"
+    "permalink": "/de/docs/next/simulate-heavy-stress-on-kubernetes"
   },
   "next": {
     "title": "Simulate DNS Faults",
-    "permalink": "/docs/next/simulate-dns-chaos-on-kubernetes"
+    "permalink": "/de/docs/next/simulate-dns-chaos-on-kubernetes"
   }
 }

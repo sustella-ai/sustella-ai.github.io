@@ -5,7 +5,7 @@
   "source": "@site/docs/simulate-host-console-in-physical-nodes.md",
   "sourceDirName": ".",
   "slug": "/simulate-host-console-in-physical-nodes",
-  "permalink": "/docs/next/simulate-host-console-in-physical-nodes",
+  "permalink": "/de/docs/next/simulate-host-console-in-physical-nodes",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/simulate-host-console-in-physical-nodes.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Simulate Network Faults",
-    "permalink": "/docs/next/simulate-network-chaos-in-physical-nodes"
+    "permalink": "/de/docs/next/simulate-network-chaos-in-physical-nodes"
   },
   "next": {
     "title": "Simulate Stress Scenarios",
-    "permalink": "/docs/next/simulate-heavy-stress-in-physical-nodes"
+    "permalink": "/de/docs/next/simulate-heavy-stress-in-physical-nodes"
   }
 }

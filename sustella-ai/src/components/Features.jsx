@@ -40,40 +40,14 @@ function Feature({ imgUrl, title, description, className, imageWidth }) {
 export default function Features() {
   return (
     <>
-      {<Feature
-        imgUrl="img/logos/kubernetes.svg"
-        title={<Translate id="home.k8s">Design for Kubernetes</Translate>}
-        description={
-          <p>
-            <Translate
-              id="home.k8s.1"
-              values={{
-                crd: (
-                  <Link
-                    className="tw-underline dark:tw-no-underline"
-                    to="https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/"
-                  >
-                    CustomResourceDefinition (CRD)
-                  </Link>
-                ),
-              }}
-            >
-              {
-                'In the Kubernetes realm, {crd} is a proven solution for implementing custom resources. Chaos Mesh leverages CRDs for natural integration with the Kubernetes ecosystem.'
-              }
-            </Translate>
-          </p>
-        }
-        className="lg:tw-col-span-2"
-      />}
       <Feature
-        imgUrl="img/features/easy-to-use.svg"
-        title={<Translate id="home.easytouse">Easy to Use</Translate>}
+        imgUrl="img/features/graph2.png"
+        title={<Translate id="">Predictive Analytics</Translate>}
         description={
           <>
             <p>
               <Translate
-                id="home.easytouse.1"
+                id=""
                 values={{
                   minikube: (
                     <Link className="tw-underline dark:tw-no-underline" to="https://minikube.sigs.k8s.io/">
@@ -81,69 +55,185 @@ export default function Features() {
                     </Link>
                   ),
                   kind: (
-                    <Link className="tw-underline dark:tw-no-underline" to="https://kind.sigs.k8s.io/">
+                    {/* <Link className="tw-underline dark:tw-no-underline" to="https://kind.sigs.k8s.io/">
                       kind
-                    </Link>
+                    </Link> */}
                   ),
                 }}
               >
-                {
+                {/* {
                   'No special dependencies, Chaos Mesh can be easily deployed on Kubernetes clusters directly, including {minikube} and {kind}.'
-                }
+                } */}
               </Translate>
             </p>
             <ul>
               <li>
                 <Translate id="home.easytouse.2">
-                  Ability to perform chaos experiments in production environments without modifying the deployment logic
-                  of applications.
+                Climate risk forecasting
                 </Translate>
               </li>
               <li>
                 <Translate id="home.easytouse.3">
-                  Quickly create chaos experiments through the dashboard, allowing users to observe the experiment's
-                  state in real time and quickly roll back any injected failures.
+                Supplier risk forecasting
+                </Translate>
+              </li>
+              <li>
+                <Translate id="home.easytouse.3">
+                Internal carbon pricing
+                </Translate>
+              </li>
+              <li>
+                <Translate id="home.easytouse.3">
+                Carbon emission forecasting
+
+                </Translate>
+              </li>
+              <li>
+                <Translate id="home.easytouse.3">
+                ESG score prediction
                 </Translate>
               </li>
             </ul>
           </>
         }
-        className="lg:tw-col-span-4"
+        className="lg:tw-col-span-3"
       />
-      <Feature
-        imgUrl="img/features/flexible-scope.svg"
-        title={<Translate id="home.flexiblescope">Flexible Scope</Translate>}
+       <Feature
+        imgUrl="img/features/Int1.svg"
+        title={<Translate id="">Decision Intelligence</Translate>}
         description={
           <>
             <p>
-              <Translate id="home.flexiblescope.1">
-                Chaos Mesh provides multiple filtering rules that allow selecting injection targets based on labels,
-                annotations, and so on. They are collectively called selectors.
+              <Translate
+                id=""
+                values={{
+                  minikube: (
+                    <Link className="tw-underline dark:tw-no-underline" to="https://minikube.sigs.k8s.io/">
+                      minikube
+                    </Link>
+                  ),
+                  kind: (
+                    {/* <Link className="tw-underline dark:tw-no-underline" to="https://kind.sigs.k8s.io/">
+                      kind
+                    </Link> */}
+                  ),
+                }}
+              >
+                {/* {
+                  'No special dependencies, Chaos Mesh can be easily deployed on Kubernetes clusters directly, including {minikube} and {kind}.'
+                } */}
               </Translate>
             </p>
-            <p>
-              <Translate id="home.flexiblescope.2">
-                In addition, users can also set a namespace whitelist to greater control the "blast radius" of the
-                experiment.
-              </Translate>
-            </p>
+            <ul>
+              <li>
+                <Translate id="home.easytouse.2">
+                Targets Identification
+                </Translate>
+              </li>
+              <li>
+                <Translate id="home.easytouse.3">
+                Decarbonization Roadmaps
+                </Translate>
+              </li>
+              <li>
+                <Translate id="home.easytouse.3">
+                Transition Planning
+                </Translate>
+              </li>
+            </ul>
           </>
         }
         className="lg:tw-col-span-3"
       />
-      <Feature
-        imgUrl="img/features/security-first.svg"
-        title={<Translate id="home.securityfirst">Security First</Translate>}
+       <Feature
+        imgUrl="img/features/graph.png"
+        title={<Translate id="">Market Segmentation
+</Translate>}
         description={
-          <p>
-            <Translate id="home.securityfirst.1">
-              Role-based access control (RBAC) is enabled by default to restrict malicious operations. Users must be
-              authorized with specific privileges to access the dashboard.
-            </Translate>
-          </p>
+          <>
+            <p>
+              <Translate
+                id=""
+                values={{
+                  minikube: (
+                    <Link className="tw-underline dark:tw-no-underline" to="https://minikube.sigs.k8s.io/">
+                      minikube
+                    </Link>
+                  ),
+                  kind: (
+                    {/* <Link className="tw-underline dark:tw-no-underline" to="https://kind.sigs.k8s.io/">
+                      kind
+                    </Link> */}
+                  ),
+                }}
+              >
+                {/* {
+                  'No special dependencies, Chaos Mesh can be easily deployed on Kubernetes clusters directly, including {minikube} and {kind}.'
+                } */}
+              </Translate>
+            </p>
+            <ul>
+              <li>
+                <Translate id="home.easytouse.2">
+                Employee engagement and retention
+                </Translate>
+              </li>
+              <li>
+                <Translate id="home.easytouse.3">
+                Industry benchmarking
+                </Translate>
+              </li>
+              <li>
+                <Translate id="home.easytouse.3">
+                Materiality assessments
+                </Translate>
+              </li>
+            </ul>
+          </>
         }
         className="lg:tw-col-span-3"
-        imageWidth="75%"
+      />
+       <Feature
+        imgUrl="img/features/flexible-scope.svg"
+        title={<Translate id="">Recommendation systems</Translate>}
+        description={
+          <>
+            <p>
+              <Translate
+                id=""
+                values={{
+                  minikube: (
+                    <Link className="tw-underline dark:tw-no-underline" to="https://minikube.sigs.k8s.io/">
+                      minikube
+                    </Link>
+                  ),
+                  kind: (
+                    {/* <Link className="tw-underline dark:tw-no-underline" to="https://kind.sigs.k8s.io/">
+                      kind
+                    </Link> */}
+                  ),
+                }}
+              >
+                {/* {
+                  'No special dependencies, Chaos Mesh can be easily deployed on Kubernetes clusters directly, including {minikube} and {kind}.'
+                } */}
+              </Translate>
+            </p>
+            <ul>
+              <li>
+                <Translate id="home.easytouse.2">
+                Adaptation/ Mitigation strategies
+                </Translate>
+              </li>
+              <li>
+                <Translate id="home.easytouse.3">
+                Sustainable procurement
+                </Translate>
+              </li>
+            </ul>
+          </>
+        }
+        className="lg:tw-col-span-3"
       />
     </>
   )

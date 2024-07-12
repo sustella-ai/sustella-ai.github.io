@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.5.2/simulate-physical-machine-chaos.md",
   "sourceDirName": ".",
   "slug": "/simulate-physical-machine-chaos",
-  "permalink": "/docs/2.5.2/simulate-physical-machine-chaos",
+  "permalink": "/de/docs/2.5.2/simulate-physical-machine-chaos",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.5.2/simulate-physical-machine-chaos.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Chaosd Introduction",
-    "permalink": "/docs/2.5.2/chaosd-overview"
+    "permalink": "/de/docs/2.5.2/chaosd-overview"
   },
   "next": {
     "title": "Simulate Process Faults",
-    "permalink": "/docs/2.5.2/simulate-process-chaos-in-physical-nodes"
+    "permalink": "/de/docs/2.5.2/simulate-process-chaos-in-physical-nodes"
   }
 }

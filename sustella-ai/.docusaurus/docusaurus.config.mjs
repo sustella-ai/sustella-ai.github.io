@@ -4,20 +4,20 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Chaos Mesh",
-  "tagline": "A Powerful Chaos Engineering Platform for Kubernetes",
+  "title": "Sustella AI",
+  "tagline": "Advanced Multi Agent System for a Sustainable Future",
   "favicon": "/img/favicon.ico",
-  "url": "https://chaos-mesh.org",
-  "baseUrl": "/",
-  "organizationName": "chaos-mesh",
-  "projectName": "chaos-mesh.github.io",
+  "url": "https://sustella-ai.github.io",
+  "baseUrl": "/de/",
+  "organizationName": "sustella-ai",
+  "projectName": "https://sustella-ai.github.io/",
   "onBrokenLinks": "warn",
   "trailingSlash": true,
   "i18n": {
     "defaultLocale": "en",
     "locales": [
       "en",
-      "zh"
+      "de"
     ],
     "localeConfigs": {
       "en": {
@@ -25,7 +25,7 @@ export default {
         "direction": "ltr"
       },
       "zh": {
-        "label": "简体中文",
+        "label": "German",
         "direction": "ltr"
       }
     },
@@ -60,66 +60,31 @@ export default {
       "defaultMode": "light",
       "disableSwitch": false
     },
-    "image": "/img/chaos-mesh-social-preview.png",
+    "image": "/img/sustella-logo1.png",
     "algolia": {
       "appId": "3BY0S3HQX6",
       "apiKey": "99bb3af44d57f0e8f6d7e019d7e2c2d7",
-      "indexName": "chaos-mesh",
+      "indexName": "sustella-ai",
       "contextualSearch": true,
       "searchParameters": {},
       "searchPagePath": "search"
     },
     "navbar": {
       "hideOnScroll": true,
-      "title": "Chaos Mesh",
+      "title": "Sustella AI",
       "logo": {
-        "alt": "Chaos Mesh",
-        "src": "img/logos/logo-mini.svg",
-        "srcDark": "img/logos/logo-mini-white.svg"
+        "alt": "Sustella Ai",
+        "src": "img/logos/sustella-logo1.png",
+        "srcDark": "img/logos/sustella-logo.png"
       },
       "items": [
         {
-          "to": "docs",
-          "label": "Documentation",
-          "position": "left"
-        },
-        {
           "to": "blog",
-          "label": "Blog",
+          "label": "Use cases",
           "position": "left"
         },
         {
-          "href": "https://community.cncf.io/chaos-mesh-community/",
-          "label": "Community Group",
-          "position": "left"
-        },
-        {
-          "type": "docsVersionDropdown",
-          "dropdownItemsAfter": [
-            {
-              "type": "html",
-              "value": "<hr style=\"margin: .5em 0;\" />"
-            },
-            {
-              "to": "/versions",
-              "label": "All Versions"
-            },
-            {
-              "to": "/supported-releases",
-              "label": "Supported Releases"
-            }
-          ],
-          "position": "right",
-          "dropdownItemsBefore": []
-        },
-        {
-          "type": "localeDropdown",
-          "position": "right",
-          "dropdownItemsBefore": [],
-          "dropdownItemsAfter": []
-        },
-        {
-          "href": "https://github.com/chaos-mesh/chaos-mesh",
+          "href": "https://github.com/sustella-ai/sustella-ai.github.io",
           "className": "header-github-link",
           "aria-label": "GitHub",
           "position": "right"
@@ -127,64 +92,9 @@ export default {
       ]
     },
     "footer": {
-      "links": [
-        {
-          "title": "Documentation",
-          "items": [
-            {
-              "label": "Quick Start",
-              "to": "docs/quick-start"
-            },
-            {
-              "label": "Run a Chaos Experiment",
-              "to": "docs/run-a-chaos-experiment"
-            },
-            {
-              "label": "Developer Guide Overview",
-              "to": "docs/developer-guide-overview"
-            },
-            {
-              "label": "FAQs",
-              "to": "docs/faqs"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "blog"
-            },
-            {
-              "label": "CNCF Community Group",
-              "href": "https://community.cncf.io/chaos-mesh-community/"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/chaos-mesh/chaos-mesh"
-            },
-            {
-              "label": "Slack (#project-chaos-mesh)",
-              "href": "https://slack.cncf.io/"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/chaos_mesh"
-            }
-          ]
-        },
-        {
-          "title": "Acknowledgements",
-          "items": [
-            {
-              "html": "\n              <ul>\n              <li>\n              <p style=\"font-size: 0.875rem;\">Thanks to netlify's Open Source Plan.</p>\n              <a href=\"https://www.netlify.com\" target=\"_blank\"><img src=\"https://www.netlify.com/v3/img/components/netlify-color-bg.svg\" alt=\"Deploys by Netlify\" /></a>\n              </li>\n              <li>\n              <p>Thanks for the <a href=\"https://storyset.com/technology\">Technology illustrations by Storyset</a>.</p>\n              </li>\n              </ul>"
-            }
-          ]
-        }
-      ],
-      "copyright": "\n        <p style=\"font-weight: 500;\">Copyright © Chaos Mesh Authors 2024 | Documentation Distributed under CC-BY-4.0</p>\n        © 2024 The Linux Foundation. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href=\"https://www.linuxfoundation.org/trademark-usage/\"> Trademark Usage</a> page.\n      ",
-      "style": "light"
+      "copyright": "\n        <p style=\"font-weight: 500;\">Copyright © Sustella AI 2024 | Documentation Distributed under CC-BY-4.0</p>\n      ",
+      "style": "light",
+      "links": []
     },
     "prism": {
       "theme": {

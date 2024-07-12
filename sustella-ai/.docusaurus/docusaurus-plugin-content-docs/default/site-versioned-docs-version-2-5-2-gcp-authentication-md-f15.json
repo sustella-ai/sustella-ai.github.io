@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.5.2/gcp-authentication.md",
   "sourceDirName": ".",
   "slug": "/gcp-authentication",
-  "permalink": "/docs/2.5.2/gcp-authentication",
+  "permalink": "/de/docs/2.5.2/gcp-authentication",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.5.2/gcp-authentication.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Search and Recover Experiments of Chaosd",
-    "permalink": "/docs/2.5.2/chaosd-search-recover"
+    "permalink": "/de/docs/2.5.2/chaosd-search-recover"
   },
   "next": {
     "title": "Integrate Chaos Mesh to GitHub Actions",
-    "permalink": "/docs/2.5.2/integrate-chaos-mesh-into-github-actions"
+    "permalink": "/de/docs/2.5.2/integrate-chaos-mesh-into-github-actions"
   }
 }

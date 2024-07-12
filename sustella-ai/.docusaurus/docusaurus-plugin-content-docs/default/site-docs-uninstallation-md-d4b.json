@@ -5,7 +5,7 @@
   "source": "@site/docs/uninstallation.md",
   "sourceDirName": ".",
   "slug": "/uninstallation",
-  "permalink": "/docs/next/uninstallation",
+  "permalink": "/de/docs/next/uninstallation",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/uninstallation.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Persistence Chaos Dashboard",
-    "permalink": "/docs/next/persistence-dashboard"
+    "permalink": "/de/docs/next/persistence-dashboard"
   },
   "next": {
     "title": "Manage User Permissions",
-    "permalink": "/docs/next/manage-user-permissions"
+    "permalink": "/de/docs/next/manage-user-permissions"
   }
 }

@@ -5,7 +5,7 @@
   "source": "@site/docs/send-http-request-on-workflow.md",
   "sourceDirName": ".",
   "slug": "/send-http-request-on-workflow",
-  "permalink": "/docs/next/send-http-request-on-workflow",
+  "permalink": "/de/docs/next/send-http-request-on-workflow",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/send-http-request-on-workflow.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Serial and Parallel Experiments",
-    "permalink": "/docs/next/run-serial-or-parallel-experiments"
+    "permalink": "/de/docs/next/run-serial-or-parallel-experiments"
   },
   "next": {
     "title": "Check Workflow Status",
-    "permalink": "/docs/next/check-workflow-status"
+    "permalink": "/de/docs/next/check-workflow-status"
   }
 }

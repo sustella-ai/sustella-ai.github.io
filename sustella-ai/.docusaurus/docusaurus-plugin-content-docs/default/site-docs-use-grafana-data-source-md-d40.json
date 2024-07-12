@@ -5,7 +5,7 @@
   "source": "@site/docs/use-grafana-data-source.md",
   "sourceDirName": ".",
   "slug": "/use-grafana-data-source",
-  "permalink": "/docs/next/use-grafana-data-source",
+  "permalink": "/de/docs/next/use-grafana-data-source",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/use-grafana-data-source.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Integrate Chaos Mesh to GitHub Actions",
-    "permalink": "/docs/next/integrate-chaos-mesh-into-github-actions"
+    "permalink": "/de/docs/next/integrate-chaos-mesh-into-github-actions"
   },
   "next": {
     "title": "Chaosctl",
-    "permalink": "/docs/next/chaosctl-tool"
+    "permalink": "/de/docs/next/chaosctl-tool"
   }
 }

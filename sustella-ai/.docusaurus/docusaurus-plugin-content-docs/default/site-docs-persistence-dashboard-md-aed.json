@@ -5,7 +5,7 @@
   "source": "@site/docs/persistence-dashboard.md",
   "sourceDirName": ".",
   "slug": "/persistence-dashboard",
-  "permalink": "/docs/next/persistence-dashboard",
+  "permalink": "/de/docs/next/persistence-dashboard",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/persistence-dashboard.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Expose Chaos Dashboard with Ingress",
-    "permalink": "/docs/next/expose-dashboard-with-ingress"
+    "permalink": "/de/docs/next/expose-dashboard-with-ingress"
   },
   "next": {
     "title": "Uninstall Chaos Mesh",
-    "permalink": "/docs/next/uninstallation"
+    "permalink": "/de/docs/next/uninstallation"
   }
 }

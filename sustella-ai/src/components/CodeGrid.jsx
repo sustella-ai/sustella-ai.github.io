@@ -5,7 +5,7 @@ import Card from './Card'
 export default function CodeGrid() {
   return (
     <>
-      <Card className="scroll-to-display-x">
+      {/* <Card className="scroll-to-display-x">
         <h3>PodChaos / pod-failure</h3>
         <CodeBlock className="codegrid-block language-yaml !tw-mb-0 !tw-shadow-none [&_code]:tw-p-0">
           {`
@@ -23,9 +23,9 @@ spec:
   duration: 30s
 `}
         </CodeBlock>
-      </Card>
+      </Card> */}
 
-      <Card className="scroll-to-display-x lg:tw-relative lg:tw-top-12">
+      {/* <Card className="scroll-to-display-x lg:tw-relative lg:tw-top-12">
         <h3>NetworkChaos / delay</h3>
         <CodeBlock className="codegrid-block language-yaml !tw-mb-0 !tw-shadow-none [&_code]:tw-p-0">
           {`
@@ -47,9 +47,9 @@ spec:
     jitter: '0ms'
 `}
         </CodeBlock>
-      </Card>
+      </Card> */}
 
-      <Card className="scroll-to-display-x">
+      {/* <Card className="scroll-to-display-x">
         <h3>StressChaos</h3>
         <CodeBlock className="codegrid-block language-yaml !tw-mb-0 !tw-shadow-none [&_code]:tw-p-0">
           {`
@@ -71,7 +71,7 @@ spec:
       size: '128MB'
 `}
         </CodeBlock>
-      </Card>
+      </Card> */}
     </>
   )
 }

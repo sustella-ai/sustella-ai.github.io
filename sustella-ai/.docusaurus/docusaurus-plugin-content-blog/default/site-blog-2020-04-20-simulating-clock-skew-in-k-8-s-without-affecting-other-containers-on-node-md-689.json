@@ -56,9 +56,5 @@
   "prevItem": {
     "title": "Chaos Mesh Joins CNCF as a Sandbox Project",
     "permalink": "/blog/chaos-mesh-join-cncf-sandbox-project"
-  },
-  "nextItem": {
-    "title": "Run Your First Chaos Experiment in 10 Minutes",
-    "permalink": "/blog/run_your_first_chaos_experiment"
   }
 }

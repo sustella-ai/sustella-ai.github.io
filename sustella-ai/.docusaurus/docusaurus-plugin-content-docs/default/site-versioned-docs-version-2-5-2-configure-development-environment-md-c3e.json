@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.5.2/configure-development-environment.md",
   "sourceDirName": ".",
   "slug": "/configure-development-environment",
-  "permalink": "/docs/2.5.2/configure-development-environment",
+  "permalink": "/de/docs/2.5.2/configure-development-environment",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.5.2/configure-development-environment.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Developer Guide Overview",
-    "permalink": "/docs/2.5.2/developer-guide-overview"
+    "permalink": "/de/docs/2.5.2/developer-guide-overview"
   },
   "next": {
     "title": "Add New Chaos Experiment Type",
-    "permalink": "/docs/2.5.2/add-new-chaos-experiment-type"
+    "permalink": "/de/docs/2.5.2/add-new-chaos-experiment-type"
   }
 }

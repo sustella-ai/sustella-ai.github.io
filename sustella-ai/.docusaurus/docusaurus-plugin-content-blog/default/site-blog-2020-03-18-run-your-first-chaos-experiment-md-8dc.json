@@ -50,9 +50,5 @@
   "prevItem": {
     "title": "Simulating Clock Skew in K8s Without Affecting Other Containers on the Node",
     "permalink": "/blog/simulating-clock-skew-in-k8s-without-affecting-other-containers-on-node"
-  },
-  "nextItem": {
-    "title": "Chaos Mesh - Your Chaos Engineering Solution for System Resiliency on Kubernetes",
-    "permalink": "/blog/chaos_mesh_your_chaos_engineering_solution"
   }
 }

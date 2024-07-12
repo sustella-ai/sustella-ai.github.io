@@ -5,7 +5,7 @@
   "source": "@site/docs/faqs.md",
   "sourceDirName": ".",
   "slug": "/faqs",
-  "permalink": "/docs/next/faqs",
+  "permalink": "/de/docs/next/faqs",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/faqs.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Extend Chaosd",
-    "permalink": "/docs/next/extend-chaosd"
+    "permalink": "/de/docs/next/extend-chaosd"
   },
   "next": {
     "title": "Upgrade to Chaos Mesh 2.0",
-    "permalink": "/docs/next/upgrade-to-2.0"
+    "permalink": "/de/docs/next/upgrade-to-2.0"
   }
 }

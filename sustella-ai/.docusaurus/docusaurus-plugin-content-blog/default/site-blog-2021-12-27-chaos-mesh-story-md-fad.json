@@ -46,8 +46,8 @@
   },
   "unlisted": false,
   "prevItem": {
-    "title": "How to Develop a Daily Reporting System to Track Chaos Testing Results",
-    "permalink": "/blog/develop-a-daily-reporting-system"
+    "title": "Sustella AI for Porsche",
+    "permalink": "/blog/chaos-mesh-qa-at-kubecon-eu-2022"
   },
   "nextItem": {
     "title": "Deploy Chaos Mesh on KubeSphere",

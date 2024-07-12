@@ -5,7 +5,7 @@
   "source": "@site/docs/extend-chaos-daemon-interface.md",
   "sourceDirName": ".",
   "slug": "/extend-chaos-daemon-interface",
-  "permalink": "/docs/next/extend-chaos-daemon-interface",
+  "permalink": "/de/docs/next/extend-chaos-daemon-interface",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/extend-chaos-daemon-interface.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Add a New Chaos Experiment Type",
-    "permalink": "/docs/next/add-new-chaos-experiment-type"
+    "permalink": "/de/docs/next/add-new-chaos-experiment-type"
   },
   "next": {
     "title": "Extend Chaosd",
-    "permalink": "/docs/next/extend-chaosd"
+    "permalink": "/de/docs/next/extend-chaosd"
   }
 }

@@ -5,7 +5,7 @@
   "source": "@site/docs/run-a-chaos-experiment.md",
   "sourceDirName": ".",
   "slug": "/run-a-chaos-experiment",
-  "permalink": "/docs/next/run-a-chaos-experiment",
+  "permalink": "/de/docs/next/run-a-chaos-experiment",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/run-a-chaos-experiment.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Define Scheduling Rules",
-    "permalink": "/docs/next/define-scheduling-rules"
+    "permalink": "/de/docs/next/define-scheduling-rules"
   },
   "next": {
     "title": "Inspect Results of Chaos Experiments",
-    "permalink": "/docs/next/inspect-chaos-experiments"
+    "permalink": "/de/docs/next/inspect-chaos-experiments"
   }
 }

@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.4.3/persistence-dashboard.md",
   "sourceDirName": ".",
   "slug": "/persistence-dashboard",
-  "permalink": "/docs/2.4.3/persistence-dashboard",
+  "permalink": "/de/docs/2.4.3/persistence-dashboard",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.4.3/persistence-dashboard.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Install Chaos Mesh Offline",
-    "permalink": "/docs/2.4.3/offline-installation"
+    "permalink": "/de/docs/2.4.3/offline-installation"
   },
   "next": {
     "title": "Uninstall Chaos Mesh",
-    "permalink": "/docs/2.4.3/uninstallation"
+    "permalink": "/de/docs/2.4.3/uninstallation"
   }
 }

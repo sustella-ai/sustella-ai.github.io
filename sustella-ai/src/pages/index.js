@@ -1,67 +1,68 @@
-import BrowserOnly from '@docusaurus/BrowserOnly'
-import Head from '@docusaurus/Head'
-import Link from '@docusaurus/Link'
-import Translate from '@docusaurus/Translate'
-import useBaseUrl from '@docusaurus/useBaseUrl'
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
-import Layout from '@theme/Layout'
-import { clsx } from 'clsx'
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import React, { useEffect } from 'react'
+import IconGithub from "../../static/img/icons/github.svg";
+import IconHelp from "../../static/img/icons/help.svg";
+import IconLibrary from "../../static/img/icons/library.svg";
+import IconOctocat from "../../static/img/icons/octocat.svg";
+import Card from "../components/Card";
+import ChaosdFeatures from "../components/ChaosdFeatures";
+import CodeGrid from "../components/CodeGrid";
+import Features from "../components/Features";
+import Mesh from "../components/Mesh";
+import PickVersion from "../components/PickVersion";
+import whoIsUsing from "../data/whoIsUsing";
+import styles from "./index.module.css";
+import BrowserOnly from "@docusaurus/BrowserOnly";
+import Head from "@docusaurus/Head";
+import Link from "@docusaurus/Link";
+import Translate from "@docusaurus/Translate";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Layout from "@theme/Layout";
+import { clsx } from "clsx";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import React, { useEffect } from "react";
 
-import IconGithub from '../../static/img/icons/github.svg'
-import IconHelp from '../../static/img/icons/help.svg'
-import IconLibrary from '../../static/img/icons/library.svg'
-import IconOctocat from '../../static/img/icons/octocat.svg'
-import Card from '../components/Card'
-import ChaosdFeatures from '../components/ChaosdFeatures'
-import CodeGrid from '../components/CodeGrid'
-import Features from '../components/Features'
-import Mesh from '../components/Mesh'
-import PickVersion from '../components/PickVersion'
-import whoIsUsing from '../data/whoIsUsing'
-import styles from './index.module.css'
-
-gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(ScrollTrigger);
 
 const description =
-  'Sustella AI is at the forefront of leveraging advanced multi-agent systems to provide comprehensive solutions for climate and sustainability challenges.'
+  "Leveraging advanced multi-agent systems to provide comprehensive solutions for climate and sustainability challenges. A paradigm shift in how AI can be utilized to gather, process, and present information.";
 
 function Home() {
-  const { siteConfig } = useDocusaurusContext()
+  const { siteConfig } = useDocusaurusContext();
 
   useEffect(() => {
-    document.querySelector('.navbar__inner').classList.add('tw-container', 'tw-mx-auto')
+    document
+      .querySelector(".navbar__inner")
+      .classList.add("tw-container", "tw-mx-auto");
 
-    gsap.from('.scroll-to-display', {
+    gsap.from(".scroll-to-display", {
       duration: 1,
       opacity: 0,
       y: 50,
       stagger: 0.25,
       scrollTrigger: {
-        trigger: '.scroll-to-display',
-        toggleActions: 'restart none none none',
+        trigger: ".scroll-to-display",
+        toggleActions: "restart none none none",
       },
-    })
+    });
 
-    gsap.from('.scroll-to-display-x', {
+    gsap.from(".scroll-to-display-x", {
       duration: 1,
       opacity: 0,
       x: 0,
       y: 100,
       stagger: 0.25,
       scrollTrigger: {
-        trigger: '.scroll-to-display-x',
-        toggleActions: 'restart none none none',
+        trigger: ".scroll-to-display-x",
+        toggleActions: "restart none none none",
       },
-    })
-  }, [])
+    });
+  }, []);
 
   return (
     <Layout description={description}>
       <Head>
-        <title>Sustella AI: {siteConfig.tagline}</title>
+        <title>Sustella AI {siteConfig.tagline}</title>
       </Head>
       <main>
         <div className="hero tw-relative tw-h-[768px] tw-pt-0 tw-overflow-hidden">
@@ -71,49 +72,46 @@ function Home() {
               <div className="tw-flex-[.8] 2xl:tw-flex-[.6] tw-p-6 lg:tw-p-3">
                 <h1
                   className={clsx(
-                    'tw-inline-block tw-text-5xl xl:tw-text-6xl tw-text-left tw-rounded-2xl tw-backdrop-blur-sm lg:tw-backdrop-blur',
+                    "tw-inline-block tw-text-5xl xl:tw-text-7xl tw-text-left tw-rounded-2xl tw-backdrop-blur-sm lg:tw-backdrop-blur",
                     styles.heroTitle
                   )}
                 >
-                  <span>Multi Agent Systems</span>
-                  <br />
-                  for Sustainable AI
-                  <br />
+                  <span>Sustella AI</span>
                 </h1>
-                <p className="lg:tw-text-lg tw-font-medium tw-rounded-2xl tw-backdrop-blur-sm lg:tw-backdrop-blur">
-                  {/* TODO: add translation. */}
+                {/* Want to change the size of description so that it is rendered on a single line */}
+                <p className="lg:tw-text-lg tw-font-medium tw-rounded-2xl tw-backdrop-blur-sm lg:tw-backdrop-blur w-full h-auto">
                   <Translate id="home.description">{description}</Translate>
                 </p>
-                <div className="tw-flex tw-gap-3">
+                {/* <div className="tw-flex tw-gap-3">
                   <Link
-                    to="/docs/production-installation-using-helm"
+                    to=""
                     className="tw-btn tw-btn-primary hover:tw-text-white hover:-tw-translate-y-[3px]"
                   >
-                    Get Started →
+                    Github Repository →
                   </Link>
                   <Link
                     to="https://github.com/sustella-ai/sustella-studio"
                     className="tw-btn tw-btn-neutral tw-gap-2 dark:tw-glass hover:tw-text-white hover:-tw-translate-y-[3px]"
                   >
                     <IconOctocat className="tw-w-4 tw-h-4 tw-fill-white" />
-                    GitHub
+                    Sustella Studio
                   </Link>
-                </div>
+                </div> */}
               </div>
 
               <div className="lg:max-xl:tw-w-[500px] tw-p-6 lg:tw-p-3">
                 <h2 className="tw-inline-block tw-text-base lg:tw-text-lg tw-font-semibold tw-rounded-2xl tw-backdrop-blur-sm lg:tw-backdrop-blur">
-                  Try it out with the following command 👇
+                  Check out our demo at this link below👇
                 </h2>
                 <PickVersion className="!tw-mb-0">
-                  curl -sSL https://mirrors.chaos-mesh.org/latest/install.sh | bash
+                  https://www.youtube.com/watch?v=JCbRMS_3ZHk
                 </PickVersion>
               </div>
             </div>
           </div>
         </div>
 
-{/*         <div className="hero">
+        {/*         <div className="hero">
           <div className="tw-container tw-mx-auto max-lg:tw-px-4 tw-text-center">
             <h2 className="tw-text-lg">
               <Translate id="home.whoisusing">Users of Chaos Mesh</Translate>
@@ -142,11 +140,11 @@ function Home() {
             <div className="tw-max-w-[800px] tw-mb-12 tw-mx-auto tw-text-center">
               {/* TODO: add translation. */}
               <h2 className="tw-text-4xl xl:tw-text-5xl">
-                Make <span className={styles.heroTitle}>Multi Agent Systems</span> solve your problems.
+                <span className={styles.heroTitle}>
+                  Advanced Multi-Agent System for a Sustainable Future
+                </span>
               </h2>
-              <p className="lg:tw-text-lg tw-font-medium">
-              Multi Agents System for real sustainability and climate use cases
-              </p>
+              <p className="lg:tw-text-lg tw-font-medium"></p>
             </div>
 
             <div className="tw-grid tw-gap-8 lg:tw-grid-rows-2 lg:tw-grid-cols-6">
@@ -160,26 +158,43 @@ function Home() {
             <div className="tw-max-w-[800px] tw-mx-auto tw-text-center">
               {/* TODO: add translation. */}
               <h2 className="tw-text-4xl xl:tw-text-5xl">
-                <span className={styles.heroTitle}>Wide variety</span> of failure types.
+                Why <span className={styles.heroTitle}>Sustella AI</span>?
               </h2>
-              <p className="lg:tw-text-lg tw-font-medium">
-                <Translate id="home.failuretypes.1">
-                  Chaos Mesh initially started from a distributed system perspective, fully considering its possible
-                  failures, thus providing more comprehensive and fine-grained fault types to help users with fault
-                  injection for networks, disks, file systems, operating systems, etc.
-                </Translate>
+              <p className="lg:tw-text-lg tw-font-medium left-aligned">
+                <div style={{ textAlign: "left" }}>
+                  <h3>AI Agents for Real Use Cases:</h3>
+                  <p>
+                    Experience the power of AI with ease. Quickly automate
+                    workflows and achieve significant results.
+                  </p>
+                </div>
+                <div style={{ textAlign: "left" }}>
+                  <h3>The Future of Conversational AI:</h3>
+                  <p>
+                    Our AI agents are custom-trained for your business. Ask them
+                    for analysis verbally. They operate 24/7, ensuring
+                    personalized interactions and continuous support.
+                  </p>
+                </div>
+                <div style={{ textAlign: "left" }}>
+                  <h3>Business Intelligence:</h3>
+                  <p>
+                    Our AI teams automate analysis, letting you focus on
+                    insights and decision-making.
+                  </p>
+                </div>
               </p>
             </div>
-            <img
+            {/* <img
               className={clsx(
                 'tw-block tw-mx-auto tw-select-none dark:tw-invert-[.85] dark:tw-saturate-0',
                 styles.chaosCategory
               )}
               src="img/home/chaos-category.svg"
               alt="Chaos Category"
-            />
+            /> */}
 
-            <div className="tw-flex tw-justify-center tw-mt-12">
+            {/* <div className="tw-flex tw-justify-center tw-mt-12">
               <Link
                 to="/docs/simulate-pod-chaos-on-kubernetes"
                 className="tw-btn tw-btn-primary tw-gap-2 hover:tw-text-white hover:-tw-translate-y-[3px]"
@@ -187,48 +202,48 @@ function Home() {
                 <IconLibrary className="tw-w-4 tw-h-4 tw-fill-white" />
                 Explore More
               </Link>
-            </div>
-            <div className="tw-grid tw-gap-8 lg:tw-grid-cols-3 tw-my-12">
+            </div> */}
+{/*             <div className="tw-grid tw-gap-8 lg:tw-grid-cols-3 tw-my-12">
               <CodeGrid />
-            </div>
+            </div> */}
           </div>
         </div>
 
         <div className="hero tw-relative">
-          <div className="tw-absolute tw-top-[-50px] tw-left-0 md:tw-top-[-100px] xl:tw-top-[-200px] tw-w-full">
+          {/* <div className="tw-absolute tw-top-[-50px] tw-left-0 md:tw-top-[-100px] xl:tw-top-[-200px] tw-w-full">
             <img src="/img/home/curve-divider.svg" />
-          </div>
+          </div> */}
           <div className="tw-container tw-mx-auto max-lg:tw-px-4">
             <div className="tw-relative tw-flex tw-flex-col lg:tw-flex-row lg:tw-items-center tw-gap-8">
               <div className="tw-flex-1">
                 <div className="xl:tw-w-[90%]">
                   {/* TODO: add translation. */}
-                  <h2 className="tw-text-4xl xl:tw-text-5xl">
+                  {/* <h2 className="tw-text-4xl xl:tw-text-5xl">
                     Orchestrate complex fault scenarios with <span className={styles.heroTitle}>Workflows</span>.
-                  </h2>
-                  <p className="lg:tw-text-lg tw-font-medium">
+                  </h2> */}
+                  {/* <p className="lg:tw-text-lg tw-font-medium">
                     Real-world failures are often not isolated causes.Chaos Mesh has built-in workflows that allow you
                     to experiment serially or in parallel at will to build walkthroughs that fit the architecture.
-                  </p>
+                  </p> */}
                   <div className="tw-flex tw-gap-4 tw-mb-6">
-                    <Card>
+                    {/* <Card>
                       <h4 className="text-lg">Suspend</h4>
                       <p>You can also use the suspend node to simulate a temporary recovery.</p>
                     </Card>
                     <Card>
                       <h4 className="text-lg">Status Check</h4>
                       <p>You can also use customized status checks to inform the cluster status.</p>
-                    </Card>
+                    </Card> */}
                   </div>
-                  <Link
+                  {/* <Link
                     to="/docs/create-chaos-mesh-workflow/"
                     className="tw-btn tw-btn-primary tw-gap-2 hover:tw-text-white hover:-tw-translate-y-[3px]"
                   >
                     Start Creating →
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
-              <div className={clsx('tw-flex-[1.5] tw-rounded-2xl', styles.workflowsImg)} />
+              {/* <div className={clsx('tw-flex-[1.5] tw-rounded-2xl', styles.workflowsImg)} /> */}
             </div>
           </div>
         </div>
@@ -236,19 +251,26 @@ function Home() {
         <div className="hero">
           <div className="tw-container tw-mx-auto max-lg:tw-px-4">
             <div className="tw-flex tw-flex-col lg:tw-flex-row lg:tw-items-center tw-gap-8">
-              <div className={clsx('tw-relative tw-flex-1 tw-flex tw-items-center tw-overflow-hidden xl:tw-h-[640px]')}>
-                <img className="tw-absolute tw-w-[90%]" src="/img/home/chaosd-bg.svg" />
+              <div
+                className={clsx(
+                  "tw-relative tw-flex-1 tw-flex tw-items-center tw-overflow-hidden xl:tw-h-[640px]"
+                )}
+              >
+                <img
+                  className="tw-absolute tw-w-[90%]"
+                  src="/img/home/chaosd-bg.svg"
+                />
                 <div className="tw-flex tw-justify-center tw-items-center xl:tw-w-[75%] lg:tw-h-[100%]">
                   <ChaosdFeatures />
                 </div>
               </div>
               <div className="tw-flex-[1.5] tw-z-10">
-                <span className="tw-badge tw-badge-primary">Experimental</span>
+                {/* <span className="tw-badge tw-badge-primary">Experimental</span> */}
                 {/* TODO: add translation. */}
-                <h2 className="tw-text-4xl xl:tw-text-5xl">
+                {/* <h2 className="tw-text-4xl xl:tw-text-5xl">
                   Meet <span className={styles.heroTitle}>Chaosd</span>: A Chaos Toolkit for Physical Machines.
-                </h2>
-                <p className="lg:tw-text-lg tw-font-medium">
+                </h2> */}
+                {/* <p className="lg:tw-text-lg tw-font-medium">
                   Even if you are not using Kubernetes, you can still take advantage of the features offered by Chaos
                   Mesh. One of our experimental tools, Chaosd, is specifically designed to test chaos on physical
                   machines. Moreover, you can use{' '}
@@ -256,13 +278,13 @@ function Home() {
                     PhysicalMachineChaos
                   </Link>{' '}
                   in Chaos Mesh to remotely invoke Chaosd for conducting experiments on physical machines.
-                </p>
-                <Link
+                </p> */}
+                {/* <Link
                   to="/docs/chaosd-overview/"
                   className="tw-btn tw-btn-primary tw-gap-2 hover:tw-text-white hover:-tw-translate-y-[3px]"
                 >
                   Overview →
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -272,33 +294,33 @@ function Home() {
           <div className="tw-container tw-mx-auto max-lg:tw-px-4">
             <div className="tw-max-w-[800px] tw-mb-12 tw-mx-auto tw-text-center">
               {/* TODO: add translation. */}
-              <h2 className="tw-text-4xl xl:tw-text-5xl">
+              {/*  <h2 className="tw-text-4xl xl:tw-text-5xl">
                 Building the Whole Community <span className={styles.heroTitle}>Together</span>.
-              </h2>
-              <p className="lg:tw-text-lg tw-font-medium">
+              </h2> */}
+              {/* <p className="lg:tw-text-lg tw-font-medium">
                 <Translate id="home.buildcommunity.1">
                   Join the community and talk to the maintainers and other users, your suggestions can make Chaos Mesh
                   even better.
                 </Translate>
-              </p>
+              </p> */}
             </div>
             <div className="tw-grid lg:tw-grid-cols-3 tw-gap-8 tw-mb-12 lg:tw-w-[80%] lg:tw-mx-auto">
-              <Card>
+              {/* <Card>
                 <IconGithub className="tw-w-12 tw-h-12 dark:tw-fill-white" />
                 <p>Join our contributors in building the future of Sustella</p>
                 <Link
-                  to="https://github.com/chaos-mesh/chaos-mesh"
+                  to="https://github.com/sustella-ai/sustella-studio"
                   className="tw-btn tw-bg-[#f2f2f2] tw-text-[#1f2937] dark:tw-text-[#a6adba] hover:!tw-bg-[#e6e6e6] tw-normal-case dark:tw-glass dark:hover:!tw-bg-transparent dark:hover:tw-text-white"
                 >
                   Star on GitHub
                 </Link>
-              </Card>
-              <Card>
+              </Card> */}
+              {/* <Card>
                 <IconHelp className="tw-w-12 tw-h-12 dark:tw-fill-white" />
                 <p>Experiencing any issues? Don't hesitate to reach out to us for assistance.</p>
                 <div className="tw-flex tw-gap-3">
                   <Link
-                    to="https://github.com/chaos-mesh/chaos-mesh/issues"
+                    to="https://github.com/sustella-ai/sustella-studio/issues"
                     className="tw-btn tw-bg-[#f2f2f2] tw-text-[#1f2937] dark:tw-text-[#a6adba] hover:!tw-bg-[#e6e6e6] tw-normal-case dark:tw-glass dark:hover:!tw-bg-transparent dark:hover:tw-text-white"
                   >
                     Issues
@@ -310,8 +332,8 @@ function Home() {
                     Discussions
                   </Link>
                 </div>
-              </Card>
-              <Card>
+              </Card> */}
+              {/* <Card>
                 <img className="tw-w-12 tw-h-12 tw-scale-150" src="/img/icons/slack.svg" alt="Slack" />
                 <p>Connect with other users on our Slack channel (#project-chaos-mesh).</p>
                 <Link
@@ -320,21 +342,21 @@ function Home() {
                 >
                   Join Slack channel
                 </Link>
-              </Card>
+              </Card> */}
             </div>
-            <p className="tw-font-medium tw-text-center">
+            {/* <p className="tw-font-medium tw-text-center">
               Chaos Mesh is a{' '}
               <Link className="tw-underline dark:tw-no-underline" to="https://cncf.io/">
                 Cloud Native Computing Foundation
               </Link>{' '}
               incubating project.
-            </p>
-            <div className="cncf-logo tw-h-16" />
+            </p> */}
+            {/* <div className="cncf-logo tw-h-16" /> */}
           </div>
         </div>
       </main>
     </Layout>
-  )
+  );
 }
 
-export default Home
+export default Home;

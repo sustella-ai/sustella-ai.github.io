@@ -5,7 +5,7 @@
   "source": "@site/docs/chaosd-overview.md",
   "sourceDirName": ".",
   "slug": "/chaosd-overview",
-  "permalink": "/docs/next/chaosd-overview",
+  "permalink": "/de/docs/next/chaosd-overview",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/chaosd-overview.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Simulate Block Device Incidents",
-    "permalink": "/docs/next/simulate-block-chaos-on-kubernetes"
+    "permalink": "/de/docs/next/simulate-block-chaos-on-kubernetes"
   },
   "next": {
     "title": "Simulate Faults on Physical Machines",
-    "permalink": "/docs/next/simulate-physical-machine-chaos"
+    "permalink": "/de/docs/next/simulate-physical-machine-chaos"
   }
 }

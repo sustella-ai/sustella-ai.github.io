@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.5.2/manage-user-permissions.md",
   "sourceDirName": ".",
   "slug": "/manage-user-permissions",
-  "permalink": "/docs/2.5.2/manage-user-permissions",
+  "permalink": "/de/docs/2.5.2/manage-user-permissions",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.5.2/manage-user-permissions.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Uninstall Chaos Mesh",
-    "permalink": "/docs/2.5.2/uninstallation"
+    "permalink": "/de/docs/2.5.2/uninstallation"
   },
   "next": {
     "title": "Configure namespace for Chaos experiments",
-    "permalink": "/docs/2.5.2/configure-enabled-namespace"
+    "permalink": "/de/docs/2.5.2/configure-enabled-namespace"
   }
 }

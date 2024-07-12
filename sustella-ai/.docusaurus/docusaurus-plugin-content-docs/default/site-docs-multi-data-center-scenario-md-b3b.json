@@ -5,7 +5,7 @@
   "source": "@site/docs/multi-data-center-scenario.md",
   "sourceDirName": ".",
   "slug": "/multi-data-center-scenario",
-  "permalink": "/docs/next/multi-data-center-scenario",
+  "permalink": "/de/docs/next/multi-data-center-scenario",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/multi-data-center-scenario.md",

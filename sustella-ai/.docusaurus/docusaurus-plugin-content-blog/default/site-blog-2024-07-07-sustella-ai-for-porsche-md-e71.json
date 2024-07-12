@@ -1,0 +1,64 @@
+{
+  "permalink": "/blog/chaos-mesh-qa-at-kubecon-eu-2022",
+  "editUrl": "https://github.com/chaos-mesh/website/edit/master/blog/2024-07-07-Sustella-Ai-for-Porsche.md",
+  "source": "@site/blog/2024-07-07-Sustella-Ai-for-Porsche.md",
+  "title": "Sustella AI for Porsche",
+  "description": "Sustella for Porsche",
+  "date": "2024-07-07T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "Porsche",
+      "permalink": "/blog/tags/porsche"
+    },
+    {
+      "inline": true,
+      "label": "Sustella",
+      "permalink": "/blog/tags/sustella"
+    },
+    {
+      "inline": true,
+      "label": "AI",
+      "permalink": "/blog/tags/ai"
+    },
+    {
+      "inline": true,
+      "label": "AI Agents",
+      "permalink": "/blog/tags/ai-agents"
+    },
+    {
+      "inline": true,
+      "label": "ESG",
+      "permalink": "/blog/tags/esg"
+    }
+  ],
+  "readingTime": 3.85,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Tanvi Sharma",
+      "url": "https://github.com/chaos-mesh",
+      "imageURL": "https://falling-walls.com/wp-content/uploads/tanviphotocolor-768x880.jpeg"
+    }
+  ],
+  "frontMatter": {
+    "slug": "/chaos-mesh-qa-at-kubecon-eu-2022",
+    "title": "Sustella AI for Porsche",
+    "author": "Tanvi Sharma",
+    "author_url": "https://github.com/chaos-mesh",
+    "author_image_url": "https://falling-walls.com/wp-content/uploads/tanviphotocolor-768x880.jpeg",
+    "image": "/img/blog/chaos-mesh-q&a.jpeg",
+    "tags": [
+      "Porsche",
+      "Sustella",
+      "AI",
+      "AI Agents",
+      "ESG"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Sustella AI Founders",
+    "permalink": "/blog/Sustella AI Founders"
+  }
+}

@@ -5,7 +5,7 @@
   "source": "@site/docs/create-chaos-mesh-workflow.md",
   "sourceDirName": ".",
   "slug": "/create-chaos-mesh-workflow",
-  "permalink": "/docs/next/create-chaos-mesh-workflow",
+  "permalink": "/de/docs/next/create-chaos-mesh-workflow",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/create-chaos-mesh-workflow.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Inspect Results of Chaos Experiments",
-    "permalink": "/docs/next/inspect-chaos-experiments"
+    "permalink": "/de/docs/next/inspect-chaos-experiments"
   },
   "next": {
     "title": "Serial and Parallel Experiments",
-    "permalink": "/docs/next/run-serial-or-parallel-experiments"
+    "permalink": "/de/docs/next/run-serial-or-parallel-experiments"
   }
 }

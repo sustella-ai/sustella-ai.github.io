@@ -5,7 +5,7 @@
   "source": "@site/docs/run-serial-or-parallel-experiments.md",
   "sourceDirName": ".",
   "slug": "/run-serial-or-parallel-experiments",
-  "permalink": "/docs/next/run-serial-or-parallel-experiments",
+  "permalink": "/de/docs/next/run-serial-or-parallel-experiments",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/run-serial-or-parallel-experiments.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Create Chaos Mesh Workflow",
-    "permalink": "/docs/next/create-chaos-mesh-workflow"
+    "permalink": "/de/docs/next/create-chaos-mesh-workflow"
   },
   "next": {
     "title": "Send HTTP Requests on Workflow",
-    "permalink": "/docs/next/send-http-request-on-workflow"
+    "permalink": "/de/docs/next/send-http-request-on-workflow"
   }
 }

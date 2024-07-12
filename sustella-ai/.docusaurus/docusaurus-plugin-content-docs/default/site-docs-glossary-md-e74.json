@@ -5,7 +5,7 @@
   "source": "@site/docs/glossary.md",
   "sourceDirName": ".",
   "slug": "/glossary",
-  "permalink": "/docs/next/glossary",
+  "permalink": "/de/docs/next/glossary",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/glossary.md",

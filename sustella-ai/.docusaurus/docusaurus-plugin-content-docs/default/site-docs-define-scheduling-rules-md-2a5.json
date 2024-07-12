@@ -5,7 +5,7 @@
   "source": "@site/docs/define-scheduling-rules.md",
   "sourceDirName": ".",
   "slug": "/define-scheduling-rules",
-  "permalink": "/docs/next/define-scheduling-rules",
+  "permalink": "/de/docs/next/define-scheduling-rules",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/define-scheduling-rules.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Define the Scope of Chaos Experiments",
-    "permalink": "/docs/next/define-chaos-experiment-scope"
+    "permalink": "/de/docs/next/define-chaos-experiment-scope"
   },
   "next": {
     "title": "Run a Chaos Experiment",
-    "permalink": "/docs/next/run-a-chaos-experiment"
+    "permalink": "/de/docs/next/run-a-chaos-experiment"
   }
 }

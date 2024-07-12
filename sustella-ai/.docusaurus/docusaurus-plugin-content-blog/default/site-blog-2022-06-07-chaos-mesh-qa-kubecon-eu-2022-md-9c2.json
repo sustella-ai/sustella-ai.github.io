@@ -2,57 +2,63 @@
   "permalink": "/blog/chaos-mesh-qa-at-kubecon-eu-2022",
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/blog/2022-06-07-chaos-mesh-qa-kubecon-eu-2022.md",
   "source": "@site/blog/2022-06-07-chaos-mesh-qa-kubecon-eu-2022.md",
-  "title": "Chaos Mesh Q&A at KUBECON EU 2022",
-  "description": "Chaos Mesh Q&A",
+  "title": "Sustella AI for Porsche",
+  "description": "Sustella for Porsche",
   "date": "2022-06-07T00:00:00.000Z",
   "tags": [
     {
       "inline": true,
-      "label": "Chaos Mesh",
-      "permalink": "/blog/tags/chaos-mesh"
+      "label": "Porsche",
+      "permalink": "/blog/tags/porsche"
     },
     {
       "inline": true,
-      "label": "Chaos Engineering",
-      "permalink": "/blog/tags/chaos-engineering"
+      "label": "Sustella",
+      "permalink": "/blog/tags/sustella"
     },
     {
       "inline": true,
-      "label": "KubeCon",
-      "permalink": "/blog/tags/kube-con"
+      "label": "AI",
+      "permalink": "/blog/tags/ai"
     },
     {
       "inline": true,
-      "label": "CloudNativeCon",
-      "permalink": "/blog/tags/cloud-native-con"
+      "label": "AI Agents",
+      "permalink": "/blog/tags/ai-agents"
+    },
+    {
+      "inline": true,
+      "label": "ESG",
+      "permalink": "/blog/tags/esg"
     }
   ],
-  "readingTime": 2.33,
+  "readingTime": 3.85,
   "hasTruncateMarker": true,
   "authors": [
     {
-      "name": "Chaos Mesh Community",
+      "name": "Tanvi Sharma",
       "url": "https://github.com/chaos-mesh",
-      "imageURL": "https://avatars1.githubusercontent.com/u/59082378?v=4"
+      "imageURL": "https://falling-walls.com/wp-content/uploads/tanviphotocolor-768x880.jpeg"
     }
   ],
   "frontMatter": {
     "slug": "/chaos-mesh-qa-at-kubecon-eu-2022",
-    "title": "Chaos Mesh Q&A at KUBECON EU 2022",
-    "author": "Chaos Mesh Community",
+    "title": "Sustella AI for Porsche",
+    "author": "Tanvi Sharma",
     "author_url": "https://github.com/chaos-mesh",
-    "author_image_url": "https://avatars1.githubusercontent.com/u/59082378?v=4",
+    "author_image_url": "https://falling-walls.com/wp-content/uploads/tanviphotocolor-768x880.jpeg",
     "image": "/img/blog/chaos-mesh-q&a.jpeg",
     "tags": [
-      "Chaos Mesh",
-      "Chaos Engineering",
-      "KubeCon",
-      "CloudNativeCon"
+      "Porsche",
+      "Sustella",
+      "AI",
+      "AI Agents",
+      "ESG"
     ]
   },
   "unlisted": false,
   "nextItem": {
-    "title": "Experience as an LFX Mentee for Chaos Mesh",
-    "permalink": "/blog/experience-as-a-chaos-mesh-lfx-mentee"
+    "title": "Sustella AI Founders Story",
+    "permalink": "/blog/Sustella AI Founders Story"
   }
 }

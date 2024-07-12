@@ -5,7 +5,7 @@
   "source": "@site/docs/chaosctl-tool.md",
   "sourceDirName": ".",
   "slug": "/chaosctl-tool",
-  "permalink": "/docs/next/chaosctl-tool",
+  "permalink": "/de/docs/next/chaosctl-tool",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/docs/chaosctl-tool.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Use Grafana Data Source Plugin for Observations",
-    "permalink": "/docs/next/use-grafana-data-source"
+    "permalink": "/de/docs/next/use-grafana-data-source"
   },
   "next": {
     "title": "Developer Guide Overview",
-    "permalink": "/docs/next/developer-guide-overview"
+    "permalink": "/de/docs/next/developer-guide-overview"
   }
 }

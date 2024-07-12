@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.5.2/simulate-time-chaos-on-physical-nodes.md",
   "sourceDirName": ".",
   "slug": "/simulate-time-chaos-on-physical-nodes",
-  "permalink": "/docs/2.5.2/simulate-time-chaos-on-physical-nodes",
+  "permalink": "/de/docs/2.5.2/simulate-time-chaos-on-physical-nodes",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.5.2/simulate-time-chaos-on-physical-nodes.md",
@@ -18,10 +18,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Simulate JVM Application Faults",
-    "permalink": "/docs/2.5.2/simulate-jvm-application-chaos-in-physical-nodes"
+    "permalink": "/de/docs/2.5.2/simulate-jvm-application-chaos-in-physical-nodes"
   },
   "next": {
     "title": "Simulate File Faults",
-    "permalink": "/docs/2.5.2/simulate-file-chaos-in-physical-nodes"
+    "permalink": "/de/docs/2.5.2/simulate-file-chaos-in-physical-nodes"
   }
 }

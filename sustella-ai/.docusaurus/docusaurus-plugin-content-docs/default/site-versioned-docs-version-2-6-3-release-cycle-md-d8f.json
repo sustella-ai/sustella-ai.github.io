@@ -5,7 +5,7 @@
   "source": "@site/versioned_docs/version-2.6.3/release-cycle.md",
   "sourceDirName": ".",
   "slug": "/release-cycle",
-  "permalink": "/docs/release-cycle",
+  "permalink": "/de/docs/release-cycle",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/versioned_docs/version-2.6.3/release-cycle.md",
@@ -17,10 +17,10 @@
   "sidebar": "docs",
   "previous": {
     "title": "Upgrade from 2.1 to 2.2",
-    "permalink": "/docs/upgrade-from-2.1-to-2.2"
+    "permalink": "/de/docs/upgrade-from-2.1-to-2.2"
   },
   "next": {
     "title": "Chaos Mesh v2.5.0 Tracking",
-    "permalink": "/docs/release-2.5-tracking"
+    "permalink": "/de/docs/release-2.5-tracking"
   }
 }
