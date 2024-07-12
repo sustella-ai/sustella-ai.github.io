@@ -4,9 +4,9 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Chaos Mesh",
-  "tagline": "A Powerful Chaos Engineering Platform for Kubernetes",
-  "favicon": "/img/favicon.ico",
+  "title": "Sustella AI:",
+  "tagline": "Multi-Agent System",
+  "favicon": "/img/sustella-logo3.svg",
   "url": "https://chaos-mesh.org",
   "baseUrl": "/",
   "organizationName": "chaos-mesh",
@@ -60,7 +60,7 @@ export default {
       "defaultMode": "light",
       "disableSwitch": false
     },
-    "image": "/img/chaos-mesh-social-preview.png",
+    "image": "/img/sustella-logo3.svg",
     "algolia": {
       "appId": "3BY0S3HQX6",
       "apiKey": "99bb3af44d57f0e8f6d7e019d7e2c2d7",
@@ -71,11 +71,11 @@ export default {
     },
     "navbar": {
       "hideOnScroll": true,
-      "title": "Chaos Mesh",
+      "title": "Sustella AI",
       "logo": {
         "alt": "Chaos Mesh",
-        "src": "img/logos/logo-mini.svg",
-        "srcDark": "img/logos/logo-mini-white.svg"
+        "src": "img/logos/sustella-logo1.png",
+        "srcDark": "img/logos/sustella-logo1.png"
       },
       "items": [
         {
