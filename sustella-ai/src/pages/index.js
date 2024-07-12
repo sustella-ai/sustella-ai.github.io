@@ -84,7 +84,7 @@ function Home() {
                 </p>
                 <div className="tw-flex tw-gap-3">
                   <Link
-                    to="/docs/production-installation-using-helm"
+                    to=""
                     className="tw-btn tw-btn-primary hover:tw-text-white hover:-tw-translate-y-[3px]"
                   >
                     Join the waiting list →
