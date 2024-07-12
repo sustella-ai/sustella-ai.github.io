@@ -74,8 +74,8 @@ export default {
       "title": "Sustella AI",
       "logo": {
         "alt": "Chaos Mesh",
-        "src": "img/logos/sustella-logo1.png",
-        "srcDark": "img/logos/sustella-logo1.png"
+        "src": "img/logos/sustella-logo3.svg",
+        "srcDark": "img/logos/sustella-logo3.svg"
       },
       "items": [
         {
