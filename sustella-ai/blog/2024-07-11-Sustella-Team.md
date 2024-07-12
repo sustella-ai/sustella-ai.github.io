@@ -1,12 +1,12 @@
 ---
-slug: /Sustella AI Founders Story
-title: 'Sustella AI Founders Story'
+slug: /Sustella AI Founders
+title: 'Sustella AI Founders'
 author: Josipa Vranjkovic
 author_title: Sustella AI
-author_url: https://github.com/TangliziGit
+author_url: https://www.linkedin.com/in/josipavranjkovic/
 author_image_url: https://avatars.githubusercontent.com/u/40566218?v=4
 image: /img/blog/lfx-mentee-experience-banner.png
-tags: [Chaos Mesh, Chaos Engineering, LFX Mentorship, Monitoring Metrics]
+tags: [Founders, Sustella AI, Entrepreneurs, Team]
 ---
 
 ![sustella-ai-team](/img/blog/sustella1.png)

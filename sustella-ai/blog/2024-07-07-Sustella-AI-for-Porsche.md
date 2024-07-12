@@ -2,7 +2,7 @@
 slug: /chaos-mesh-qa-at-kubecon-eu-2022
 title: 'Sustella AI for Porsche'
 author: Tanvi Sharma
-author_url: https://github.com/chaos-mesh
+author_url: https://www.linkedin.com/in/sharmatanvi/
 author_image_url: https://falling-walls.com/wp-content/uploads/tanviphotocolor-768x880.jpeg
 image: /img/blog/chaos-mesh-q&a.jpeg
 tags: [Porsche, Sustella, AI, AI Agents, ESG]

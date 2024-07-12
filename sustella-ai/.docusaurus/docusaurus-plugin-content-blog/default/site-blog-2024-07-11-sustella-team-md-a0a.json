@@ -1,0 +1,60 @@
+{
+  "permalink": "/blog/Sustella AI Founders",
+  "editUrl": "https://github.com/chaos-mesh/website/edit/master/blog/2024-07-11-Sustella-Team.md",
+  "source": "@site/blog/2024-07-11-Sustella-Team.md",
+  "title": "Sustella AI Founders",
+  "description": "sustella-ai-team",
+  "date": "2024-07-11T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "Founders",
+      "permalink": "/blog/tags/founders"
+    },
+    {
+      "inline": true,
+      "label": "Sustella AI",
+      "permalink": "/blog/tags/sustella-ai"
+    },
+    {
+      "inline": true,
+      "label": "Entrepreneurs",
+      "permalink": "/blog/tags/entrepreneurs"
+    },
+    {
+      "inline": true,
+      "label": "Team",
+      "permalink": "/blog/tags/team"
+    }
+  ],
+  "readingTime": 2.745,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Josipa Vranjkovic",
+      "title": "Sustella AI",
+      "url": "https://www.linkedin.com/in/josipavranjkovic/",
+      "imageURL": "https://avatars.githubusercontent.com/u/40566218?v=4"
+    }
+  ],
+  "frontMatter": {
+    "slug": "/Sustella AI Founders",
+    "title": "Sustella AI Founders",
+    "author": "Josipa Vranjkovic",
+    "author_title": "Sustella AI",
+    "author_url": "https://www.linkedin.com/in/josipavranjkovic/",
+    "author_image_url": "https://avatars.githubusercontent.com/u/40566218?v=4",
+    "image": "/img/blog/lfx-mentee-experience-banner.png",
+    "tags": [
+      "Founders",
+      "Sustella AI",
+      "Entrepreneurs",
+      "Team"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Sustella AI for Porsche",
+    "permalink": "/blog/chaos-mesh-qa-at-kubecon-eu-2022"
+  }
+}

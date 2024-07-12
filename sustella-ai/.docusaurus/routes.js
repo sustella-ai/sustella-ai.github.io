@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog/',
-    component: ComponentCreator('/blog/', '7da'),
+    component: ComponentCreator('/blog/', '8c8'),
     exact: true
   },
   {
@@ -48,163 +48,13 @@ export default [
     exact: true
   },
   {
-    path: '/blog/better-observability-for-chaos-engineering/',
-    component: ComponentCreator('/blog/better-observability-for-chaos-engineering/', 'e69'),
-    exact: true
-  },
-  {
-    path: '/blog/building_automated_testing_framework/',
-    component: ComponentCreator('/blog/building_automated_testing_framework/', '691'),
-    exact: true
-  },
-  {
-    path: '/blog/celebrating-one-year-of-chaos-mesh-looking-back-and-ahead/',
-    component: ComponentCreator('/blog/celebrating-one-year-of-chaos-mesh-looking-back-and-ahead/', 'e26'),
-    exact: true
-  },
-  {
-    path: '/blog/chaos_mesh_your_chaos_engineering_solution/',
-    component: ComponentCreator('/blog/chaos_mesh_your_chaos_engineering_solution/', 'dff'),
-    exact: true
-  },
-  {
-    path: '/blog/chaos-engineering-breaking-things-intentionally/',
-    component: ComponentCreator('/blog/chaos-engineering-breaking-things-intentionally/', 'd75'),
-    exact: true
-  },
-  {
-    path: '/blog/chaos-mesh-1.0-chaos-engineering-on-kubernetes-made-easier/',
-    component: ComponentCreator('/blog/chaos-mesh-1.0-chaos-engineering-on-kubernetes-made-easier/', 'eaf'),
-    exact: true
-  },
-  {
-    path: '/blog/chaos-mesh-2.0-to-a-chaos-engineering-ecology/',
-    component: ComponentCreator('/blog/chaos-mesh-2.0-to-a-chaos-engineering-ecology/', '8fb'),
-    exact: true
-  },
-  {
-    path: '/blog/chaos-mesh-action-integrate-chaos-engineering-into-your-ci/',
-    component: ComponentCreator('/blog/chaos-mesh-action-integrate-chaos-engineering-into-your-ci/', '576'),
-    exact: true
-  },
-  {
-    path: '/blog/chaos-mesh-celebrates-100th-contributor/',
-    component: ComponentCreator('/blog/chaos-mesh-celebrates-100th-contributor/', '407'),
-    exact: true
-  },
-  {
-    path: '/blog/chaos-mesh-hacktoberfest-2021/',
-    component: ComponentCreator('/blog/chaos-mesh-hacktoberfest-2021/', '608'),
-    exact: true
-  },
-  {
-    path: '/blog/chaos-mesh-join-cncf-sandbox-project/',
-    component: ComponentCreator('/blog/chaos-mesh-join-cncf-sandbox-project/', '3b7'),
-    exact: true
-  },
-  {
-    path: '/blog/chaos-mesh-q&a/',
-    component: ComponentCreator('/blog/chaos-mesh-q&a/', '8a0'),
-    exact: true
-  },
-  {
     path: '/blog/chaos-mesh-qa-at-kubecon-eu-2022/',
-    component: ComponentCreator('/blog/chaos-mesh-qa-at-kubecon-eu-2022/', '2df'),
+    component: ComponentCreator('/blog/chaos-mesh-qa-at-kubecon-eu-2022/', '4fc'),
     exact: true
   },
   {
-    path: '/blog/chaos-mesh-remake-one-step-closer-towards-chaos-as-a-service/',
-    component: ComponentCreator('/blog/chaos-mesh-remake-one-step-closer-towards-chaos-as-a-service/', '93d'),
-    exact: true
-  },
-  {
-    path: '/blog/chaos-mesh-x-hacktoberfest-2020/',
-    component: ComponentCreator('/blog/chaos-mesh-x-hacktoberfest-2020/', '4f6'),
-    exact: true
-  },
-  {
-    path: '/blog/deploy-chaos-mesh-on-kubesphere/',
-    component: ComponentCreator('/blog/deploy-chaos-mesh-on-kubesphere/', 'c8e'),
-    exact: true
-  },
-  {
-    path: '/blog/develop-a-daily-reporting-system/',
-    component: ComponentCreator('/blog/develop-a-daily-reporting-system/', '0f5'),
-    exact: true
-  },
-  {
-    path: '/blog/how-a-top-game-company-uses-chaos-engineering-to-improve-testing/',
-    component: ComponentCreator('/blog/how-a-top-game-company-uses-chaos-engineering-to-improve-testing/', '6c9'),
-    exact: true
-  },
-  {
-    path: '/blog/How-Chaos-Mesh-Helps-Apache-APISIX-Improve-System-Stability/',
-    component: ComponentCreator('/blog/How-Chaos-Mesh-Helps-Apache-APISIX-Improve-System-Stability/', '560'),
-    exact: true
-  },
-  {
-    path: '/blog/how-to-efficiently-stress-test-pod-memory/',
-    component: ComponentCreator('/blog/how-to-efficiently-stress-test-pod-memory/', 'c8b'),
-    exact: true
-  },
-  {
-    path: '/blog/how-to-simulate-io-faults-at-runtime/',
-    component: ComponentCreator('/blog/how-to-simulate-io-faults-at-runtime/', '338'),
-    exact: true
-  },
-  {
-    path: '/blog/implement-chaos-engineering-in-k8s/',
-    component: ComponentCreator('/blog/implement-chaos-engineering-in-k8s/', '99c'),
-    exact: true
-  },
-  {
-    path: '/blog/lfx-mentorship-enriching-awschaos/',
-    component: ComponentCreator('/blog/lfx-mentorship-enriching-awschaos/', '941'),
-    exact: true
-  },
-  {
-    path: '/blog/page/2/',
-    component: ComponentCreator('/blog/page/2/', '925'),
-    exact: true
-  },
-  {
-    path: '/blog/page/3/',
-    component: ComponentCreator('/blog/page/3/', 'ae1'),
-    exact: true
-  },
-  {
-    path: '/blog/run_your_first_chaos_experiment/',
-    component: ComponentCreator('/blog/run_your_first_chaos_experiment/', '7d5'),
-    exact: true
-  },
-  {
-    path: '/blog/run-chaos-experiments-on-physical-machines/',
-    component: ComponentCreator('/blog/run-chaos-experiments-on-physical-machines/', '30f'),
-    exact: true
-  },
-  {
-    path: '/blog/Securing-Online-Gaming-Combine-Chaos-Engineering-with-DevOps-Practices/',
-    component: ComponentCreator('/blog/Securing-Online-Gaming-Combine-Chaos-Engineering-with-DevOps-Practices/', '70b'),
-    exact: true
-  },
-  {
-    path: '/blog/securing-tenant-namespaces-using-restrict-authorization-feature/',
-    component: ComponentCreator('/blog/securing-tenant-namespaces-using-restrict-authorization-feature/', '967'),
-    exact: true
-  },
-  {
-    path: '/blog/share-your-chaos-mesh-story/',
-    component: ComponentCreator('/blog/share-your-chaos-mesh-story/', 'a2e'),
-    exact: true
-  },
-  {
-    path: '/blog/simulating-clock-skew-in-k8s-without-affecting-other-containers-on-node/',
-    component: ComponentCreator('/blog/simulating-clock-skew-in-k8s-without-affecting-other-containers-on-node/', '6a5'),
-    exact: true
-  },
-  {
-    path: '/blog/Sustella AI Founders Story/',
-    component: ComponentCreator('/blog/Sustella AI Founders Story/', '27b'),
+    path: '/blog/Sustella AI Founders/',
+    component: ComponentCreator('/blog/Sustella AI Founders/', '556'),
     exact: true
   },
   {
@@ -214,157 +64,47 @@ export default [
   },
   {
     path: '/blog/tags/ai-agents/',
-    component: ComponentCreator('/blog/tags/ai-agents/', '8b9'),
+    component: ComponentCreator('/blog/tags/ai-agents/', 'af3'),
     exact: true
   },
   {
     path: '/blog/tags/ai/',
-    component: ComponentCreator('/blog/tags/ai/', '0ee'),
+    component: ComponentCreator('/blog/tags/ai/', '5bc'),
     exact: true
   },
   {
-    path: '/blog/tags/announcement/',
-    component: ComponentCreator('/blog/tags/announcement/', 'dff'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/aws-chaos/',
-    component: ComponentCreator('/blog/tags/aws-chaos/', 'f0e'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/chaos-engineering/',
-    component: ComponentCreator('/blog/tags/chaos-engineering/', 'c2c'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/chaos-engineering/page/2/',
-    component: ComponentCreator('/blog/tags/chaos-engineering/page/2/', '828'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/chaos-engineering/page/3/',
-    component: ComponentCreator('/blog/tags/chaos-engineering/page/3/', 'ae6'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/chaos-mesh/',
-    component: ComponentCreator('/blog/tags/chaos-mesh/', 'a0a'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/chaos-mesh/page/2/',
-    component: ComponentCreator('/blog/tags/chaos-mesh/page/2/', '4df'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/chaos-mesh/page/3/',
-    component: ComponentCreator('/blog/tags/chaos-mesh/page/3/', '048'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/chaosd/',
-    component: ComponentCreator('/blog/tags/chaosd/', '1d6'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/ci/',
-    component: ComponentCreator('/blog/tags/ci/', '00f'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/cloud-native/',
-    component: ComponentCreator('/blog/tags/cloud-native/', '1d1'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/cncf/',
-    component: ComponentCreator('/blog/tags/cncf/', '048'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/community/',
-    component: ComponentCreator('/blog/tags/community/', 'd3f'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/distributed-system/',
-    component: ComponentCreator('/blog/tags/distributed-system/', '5f9'),
+    path: '/blog/tags/entrepreneurs/',
+    component: ComponentCreator('/blog/tags/entrepreneurs/', '0d6'),
     exact: true
   },
   {
     path: '/blog/tags/esg/',
-    component: ComponentCreator('/blog/tags/esg/', '308'),
+    component: ComponentCreator('/blog/tags/esg/', 'a36'),
     exact: true
   },
   {
-    path: '/blog/tags/event/',
-    component: ComponentCreator('/blog/tags/event/', 'c3c'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/fault-injection/',
-    component: ComponentCreator('/blog/tags/fault-injection/', '2d9'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/git-hub-action/',
-    component: ComponentCreator('/blog/tags/git-hub-action/', 'f64'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/kubernetes/',
-    component: ComponentCreator('/blog/tags/kubernetes/', 'bed'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/lfx-mentorship/',
-    component: ComponentCreator('/blog/tags/lfx-mentorship/', '257'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/monitoring-metrics/',
-    component: ComponentCreator('/blog/tags/monitoring-metrics/', '140'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/open-source/',
-    component: ComponentCreator('/blog/tags/open-source/', 'f88'),
+    path: '/blog/tags/founders/',
+    component: ComponentCreator('/blog/tags/founders/', 'b51'),
     exact: true
   },
   {
     path: '/blog/tags/porsche/',
-    component: ComponentCreator('/blog/tags/porsche/', 'f28'),
+    component: ComponentCreator('/blog/tags/porsche/', '31d'),
     exact: true
   },
   {
-    path: '/blog/tags/stress-chaos/',
-    component: ComponentCreator('/blog/tags/stress-chaos/', '24f'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/stress-testing/',
-    component: ComponentCreator('/blog/tags/stress-testing/', '788'),
+    path: '/blog/tags/sustella-ai/',
+    component: ComponentCreator('/blog/tags/sustella-ai/', '9b8'),
     exact: true
   },
   {
     path: '/blog/tags/sustella/',
-    component: ComponentCreator('/blog/tags/sustella/', 'a1d'),
+    component: ComponentCreator('/blog/tags/sustella/', '623'),
     exact: true
   },
   {
-    path: '/blog/tags/test-automation/',
-    component: ComponentCreator('/blog/tags/test-automation/', '6f2'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/tutorial/',
-    component: ComponentCreator('/blog/tags/tutorial/', 'f11'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/use-case/',
-    component: ComponentCreator('/blog/tags/use-case/', 'd3a'),
+    path: '/blog/tags/team/',
+    component: ComponentCreator('/blog/tags/team/', '4c3'),
     exact: true
   },
   {
