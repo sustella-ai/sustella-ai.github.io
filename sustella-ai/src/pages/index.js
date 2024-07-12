@@ -30,7 +30,7 @@ const description =
 function Home() {
   const { siteConfig } = useDocusaurusContext();
 
-  useEffect(() => {
+  {/*useEffect(() => {
     document
       .querySelector(".navbar__inner")
       .classList.add("tw-container", "tw-mx-auto");
@@ -57,7 +57,7 @@ function Home() {
         toggleActions: "restart none none none",
       },
     });
-  }, []);
+  }, []);*/}
 
   return (
     <Layout description={description}>
@@ -104,7 +104,7 @@ function Home() {
                   Check out our demo at this link below👇
                 </h2>
                 <PickVersion className="!tw-mb-0">
-                  https://www.youtube.com/watch?v=JCbRMS_3ZHk
+                https://youtu.be/IbnD0DgpqjU
                 </PickVersion>
               </div>
             </div>
