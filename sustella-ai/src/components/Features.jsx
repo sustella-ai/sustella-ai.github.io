@@ -41,7 +41,7 @@ export default function Features() {
   return (
     <>
       <Feature
-        imgUrl="img/features/Int1.svg"
+        imgUrl="img/features/graph2.png"
         title={<Translate id="">Prediction/ Forecasting</Translate>}
         description={
           <>
@@ -146,7 +146,7 @@ export default function Features() {
         className="lg:tw-col-span-4"
       />
        <Feature
-        imgUrl="img/features/Int1.svg"
+        imgUrl="img/features/graph.png"
         title={<Translate id="">Segmentation/ Classification
 </Translate>}
         description={
@@ -194,7 +194,7 @@ export default function Features() {
         className="lg:tw-col-span-4"
       />
        <Feature
-        imgUrl="img/features/Int1.svg"
+        imgUrl="img/features/flexible-scope.svg"
         title={<Translate id="">Recommendation systems</Translate>}
         description={
           <>
