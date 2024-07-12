@@ -247,7 +247,7 @@ function Home() {
                 </div>
               </div>
               <div className="tw-flex-[1.5] tw-z-10">
-                <span className="tw-badge tw-badge-primary">Experimental</span>
+                {/* <span className="tw-badge tw-badge-primary">Experimental</span> */}
                 {/* TODO: add translation. */}
                 {/* <h2 className="tw-text-4xl xl:tw-text-5xl">
                   Meet <span className={styles.heroTitle}>Chaosd</span>: A Chaos Toolkit for Physical Machines.
