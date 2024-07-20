@@ -82,15 +82,20 @@ const config = {
       hideOnScroll: true,
       title: 'Sustella AI',
       logo: {
-        alt: 'Sustella Ai',
+        alt: 'Sustella AI',
         src: 'img/logos/sustella-logo1.png',
-        srcDark: 'img/logos/sustella-logo.png',
+        srcDark: 'img/logos/sustella-logo1.png',
       },
       items: [
+        
         /* { to: 'docs', label: 'Documentation' }, */
         {
           to: 'blog',
           label: 'Use cases',
+        },
+        {
+          to: 'blog/team/',
+          label: 'Team',
         },
         /* {
           href: 'https://community.cncf.io/chaos-mesh-community/',

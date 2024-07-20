@@ -1,5 +1,5 @@
 ---
-slug: /chaos-mesh-qa-at-kubecon-eu-2022
+slug: /sustella-for-porsche
 title: 'Sustella AI for Porsche'
 author: Tanvi Sharma
 author_url: https://www.linkedin.com/in/sharmatanvi/
@@ -50,9 +50,8 @@ At Sustella, we prioritize the security and confidentiality of our clients' data
 **Confidentiality Agreements:** We enter into strict confidentiality agreements with all clients to safeguard their data. Our commitment to data privacy is unwavering, and we take every measure to ensure that client data remains confidential.
 
 **Privacy by Design:** Sustella prioritizes data privacy, adhering to privacy-by-design principles with integrated data protection measures. For fully private environments, local LLMs are utilized, while secure deployments via hyperscaling cloud solutions such as AWS, Azure, or Google offer proprietary services.
-Compliance with SOC2 Standards
 
-**SOC2 Conformity:** Sustella conforms to SOC2 (Service Organization Control Type 2) standards, which are stringent guidelines for cybersecurity and data protection.
+**Compliance with SOC2 Standards:** Sustella conforms to SOC2 (Service Organization Control Type 2) standards, which are stringent guidelines for cybersecurity and data protection.
 
 
 

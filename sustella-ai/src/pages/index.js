@@ -82,21 +82,21 @@ function Home() {
                 <p className="lg:tw-text-lg tw-font-medium tw-rounded-2xl tw-backdrop-blur-sm lg:tw-backdrop-blur w-full h-auto">
                   <Translate id="home.description">{description}</Translate>
                 </p>
-                {/* <div className="tw-flex tw-gap-3">
+                <div className="tw-flex tw-gap-3">
                   <Link
-                    to=""
-                    className="tw-btn tw-btn-primary hover:tw-text-white hover:-tw-translate-y-[3px]"
+                    to="https://docs.google.com/forms/d/1tvK9w9cN0VJvShxWTEgqcnYrBKeby8KrXREh-KvkXzA/viewform?pli=1&pli=1&edit_requested=true"
+                    className="tw-btn tw-btn-primary tw-px-6 tw-py-3 tw-text-lg hover:tw-text-white hover:-tw-translate-y-[3px]"
                   >
-                    Github Repository →
+                    Join the waiting list
                   </Link>
                   <Link
-                    to="https://github.com/sustella-ai/sustella-studio"
-                    className="tw-btn tw-btn-neutral tw-gap-2 dark:tw-glass hover:tw-text-white hover:-tw-translate-y-[3px]"
+                    to="https://calendly.com/sustella-ai/30min"
+                    className="tw-btn tw-btn-neutral tw-gap-2 tw-text-lg hover:tw-text-white hover:-tw-translate-y-[3px]"
                   >
                     <IconOctocat className="tw-w-4 tw-h-4 tw-fill-white" />
-                    Sustella Studio
+                    Get in touch
                   </Link>
-                </div> */}
+                </div>
               </div>
 
               <div className="lg:max-xl:tw-w-[500px] tw-p-6 lg:tw-p-3">
@@ -104,7 +104,7 @@ function Home() {
                   Check out our demo at this link below👇
                 </h2>
                 <PickVersion className="!tw-mb-0">
-                https://youtu.be/IbnD0DgpqjU
+                  https://youtu.be/IbnD0DgpqjU
                 </PickVersion>
               </div>
             </div>
@@ -152,11 +152,9 @@ function Home() {
             </div>
           </div>
         </div>
-
         <div className="hero">
           <div className="tw-container tw-mx-auto max-lg:tw-px-4">
             <div className="tw-max-w-[800px] tw-mx-auto tw-text-center">
-              {/* TODO: add translation. */}
               <h2 className="tw-text-4xl xl:tw-text-5xl">
                 Why <span className={styles.heroTitle}>Sustella AI</span>?
               </h2>
@@ -203,7 +201,7 @@ function Home() {
                 Explore More
               </Link>
             </div> */}
-{/*             <div className="tw-grid tw-gap-8 lg:tw-grid-cols-3 tw-my-12">
+            {/*             <div className="tw-grid tw-gap-8 lg:tw-grid-cols-3 tw-my-12">
               <CodeGrid />
             </div> */}
           </div>
@@ -247,49 +245,6 @@ function Home() {
             </div>
           </div>
         </div>
-
-        <div className="hero">
-          <div className="tw-container tw-mx-auto max-lg:tw-px-4">
-            <div className="tw-flex tw-flex-col lg:tw-flex-row lg:tw-items-center tw-gap-8">
-              <div
-                className={clsx(
-                  "tw-relative tw-flex-1 tw-flex tw-items-center tw-overflow-hidden xl:tw-h-[640px]"
-                )}
-              >
-                <img
-                  className="tw-absolute tw-w-[90%]"
-                  src="/img/home/chaosd-bg.svg"
-                />
-                <div className="tw-flex tw-justify-center tw-items-center xl:tw-w-[75%] lg:tw-h-[100%]">
-                  <ChaosdFeatures />
-                </div>
-              </div>
-              <div className="tw-flex-[1.5] tw-z-10">
-                {/* <span className="tw-badge tw-badge-primary">Experimental</span> */}
-                {/* TODO: add translation. */}
-                {/* <h2 className="tw-text-4xl xl:tw-text-5xl">
-                  Meet <span className={styles.heroTitle}>Chaosd</span>: A Chaos Toolkit for Physical Machines.
-                </h2> */}
-                {/* <p className="lg:tw-text-lg tw-font-medium">
-                  Even if you are not using Kubernetes, you can still take advantage of the features offered by Chaos
-                  Mesh. One of our experimental tools, Chaosd, is specifically designed to test chaos on physical
-                  machines. Moreover, you can use{' '}
-                  <Link className="tw-underline dark:tw-no-underline" to="/docs/simulate-physical-machine-chaos">
-                    PhysicalMachineChaos
-                  </Link>{' '}
-                  in Chaos Mesh to remotely invoke Chaosd for conducting experiments on physical machines.
-                </p> */}
-                {/* <Link
-                  to="/docs/chaosd-overview/"
-                  className="tw-btn tw-btn-primary tw-gap-2 hover:tw-text-white hover:-tw-translate-y-[3px]"
-                >
-                  Overview →
-                </Link> */}
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div className="hero">
           <div className="tw-container tw-mx-auto max-lg:tw-px-4">
             <div className="tw-max-w-[800px] tw-mb-12 tw-mx-auto tw-text-center">
