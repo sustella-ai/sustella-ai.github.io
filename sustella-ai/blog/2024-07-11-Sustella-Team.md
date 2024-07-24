@@ -1,5 +1,5 @@
 ---
-slug: /Sustella AI Founders
+slug: /team
 title: 'Sustella AI Founders'
 author: Josipa Vranjkovic
 author_title: Sustella AI

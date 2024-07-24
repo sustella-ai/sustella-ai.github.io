@@ -72,7 +72,7 @@ const config = {
     colorMode: {
       respectPrefersColorScheme: true,
     },
-    image: '/img/sustella-logo1.png',
+    image: '/img/logo-mini.svg',
     algolia: {
       appId: '3BY0S3HQX6',
       apiKey: '99bb3af44d57f0e8f6d7e019d7e2c2d7',
@@ -82,15 +82,24 @@ const config = {
       hideOnScroll: true,
       title: 'Sustella AI',
       logo: {
-        alt: 'Sustella Ai',
-        src: 'img/logos/sustella-logo1.png',
-        srcDark: 'img/logos/sustella-logo.png',
+        alt: 'Sustella AI',
+        src: 'img/logos/logo-mini.svg',
+        srcDark: 'img/logos/logo-mini-white.svg',
       },
       items: [
+
         /* { to: 'docs', label: 'Documentation' }, */
         {
           to: 'blog',
           label: 'Use cases',
+        },
+        {
+          to: 'blog/team/',
+          label: 'Team',
+        },
+        {
+          to: 'https://bit.ly/sustella-ai',
+          label: 'Slidedeck',
         },
         /* {
           href: 'https://community.cncf.io/chaos-mesh-community/',
