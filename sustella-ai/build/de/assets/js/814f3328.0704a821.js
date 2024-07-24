@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkchaos_mesh_website=self.webpackChunkchaos_mesh_website||[]).push([[7472],{55513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Sustella AI Founders","permalink":"/de/blog/team","unlisted":false},{"title":"Sustella AI for Porsche","permalink":"/de/blog/sustella-for-porsche","unlisted":false}]}')}}]);

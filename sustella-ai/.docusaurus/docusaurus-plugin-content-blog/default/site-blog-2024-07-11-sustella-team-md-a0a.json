@@ -1,5 +1,5 @@
 {
-  "permalink": "/de/blog/Sustella AI Founders",
+  "permalink": "/de/blog/team",
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/blog/2024-07-11-Sustella-Team.md",
   "source": "@site/blog/2024-07-11-Sustella-Team.md",
   "title": "Sustella AI Founders",
@@ -38,7 +38,7 @@
     }
   ],
   "frontMatter": {
-    "slug": "/Sustella AI Founders",
+    "slug": "/team",
     "title": "Sustella AI Founders",
     "author": "Josipa Vranjkovic",
     "author_title": "Sustella AI",
@@ -55,6 +55,6 @@
   "unlisted": false,
   "nextItem": {
     "title": "Sustella AI for Porsche",
-    "permalink": "/de/blog/chaos-mesh-qa-at-kubecon-eu-2022"
+    "permalink": "/de/blog/sustella-for-porsche"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "permalink": "/de/blog/chaos-mesh-qa-at-kubecon-eu-2022",
+  "permalink": "/de/blog/sustella-for-porsche",
   "editUrl": "https://github.com/chaos-mesh/website/edit/master/blog/2024-07-07-Sustella-AI-for-Porsche.md",
   "source": "@site/blog/2024-07-07-Sustella-AI-for-Porsche.md",
   "title": "Sustella AI for Porsche",
@@ -32,7 +32,7 @@
       "permalink": "/de/blog/tags/esg"
     }
   ],
-  "readingTime": 3.85,
+  "readingTime": 3.84,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -42,7 +42,7 @@
     }
   ],
   "frontMatter": {
-    "slug": "/chaos-mesh-qa-at-kubecon-eu-2022",
+    "slug": "/sustella-for-porsche",
     "title": "Sustella AI for Porsche",
     "author": "Tanvi Sharma",
     "author_url": "https://www.linkedin.com/in/sharmatanvi/",
@@ -59,6 +59,6 @@
   "unlisted": false,
   "prevItem": {
     "title": "Sustella AI Founders",
-    "permalink": "/de/blog/Sustella AI Founders"
+    "permalink": "/de/blog/team"
   }
 }

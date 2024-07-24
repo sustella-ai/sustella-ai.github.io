@@ -13,13 +13,8 @@ export default [
     exact: true
   },
   {
-    path: '/de/blog/chaos-mesh-qa-at-kubecon-eu-2022/',
-    component: ComponentCreator('/de/blog/chaos-mesh-qa-at-kubecon-eu-2022/', '207'),
-    exact: true
-  },
-  {
-    path: '/de/blog/Sustella AI Founders/',
-    component: ComponentCreator('/de/blog/Sustella AI Founders/', 'eea'),
+    path: '/de/blog/sustella-for-porsche/',
+    component: ComponentCreator('/de/blog/sustella-for-porsche/', '308'),
     exact: true
   },
   {
@@ -70,6 +65,11 @@ export default [
   {
     path: '/de/blog/tags/team/',
     component: ComponentCreator('/de/blog/tags/team/', '4c5'),
+    exact: true
+  },
+  {
+    path: '/de/blog/team/',
+    component: ComponentCreator('/de/blog/team/', '1c6'),
     exact: true
   },
   {

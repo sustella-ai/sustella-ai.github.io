@@ -25,7 +25,7 @@ import React, { useEffect } from "react";
 gsap.registerPlugin(ScrollTrigger);
 
 const description =
-  "Leveraging advanced multi-agent systems to provide comprehensive solutions for climate and sustainability challenges. A paradigm shift in how AI can be utilized to gather, process, and present information.";
+  "Leveraging advanced multi-agent systems to organise and analyse enterprise data. A paradigm shift in how AI can be utilized to gather, process, and present information.";
 
 function Home() {
   const { siteConfig } = useDocusaurusContext();

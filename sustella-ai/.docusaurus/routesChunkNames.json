@@ -22,7 +22,7 @@
     },
     "__props": "7de7ba27"
   },
-  "/de/blog/chaos-mesh-qa-at-kubecon-eu-2022/-207": {
+  "/de/blog/sustella-for-porsche/-308": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -32,17 +32,6 @@
     },
     "sidebar": "814f3328",
     "content": "2786f974"
-  },
-  "/de/blog/Sustella AI Founders/-eea": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "a0ab627c"
   },
   "/de/blog/tags/-e8a": {
     "__comp": "01a85c17",
@@ -168,6 +157,17 @@
       }
     ],
     "__props": "a53ad732"
+  },
+  "/de/blog/team/-1c6": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "a0ab627c"
   },
   "/de/search/-624": {
     "__comp": "1a4e3797",
